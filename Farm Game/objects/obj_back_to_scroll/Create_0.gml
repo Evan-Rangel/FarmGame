@@ -1,5 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+
+script_execute(variable_name, 0);
+
+
+/*
 sprite_index= background_spr;
 
 object_list=ds_list_create();
@@ -16,3 +22,4 @@ for(i=0;i<array_length(objects);i++)
 
 t=ds_list_find_value(object_list, 0);
 show_debug_message("a");
+*/

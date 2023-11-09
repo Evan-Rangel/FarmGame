@@ -33,7 +33,9 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"objects","filters":[],"listItems":[
         "new Objects(obj_resource_axe, 1)",
         "new Objects(obj_resource_sword, 1)",
+        "a",
       ],"multiselect":true,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"","varType":6,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"variable_name","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"testeo()","varType":4,},
   ],
   "solid": false,
   "spriteId": null,
