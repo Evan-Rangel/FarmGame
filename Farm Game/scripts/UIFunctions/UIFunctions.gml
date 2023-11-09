@@ -122,26 +122,71 @@ function resource_stop_move_position()
 					{
 						in_movement = true;
 					}
-					var _temp_count = resource_count;				
+					
+					//GUARDAR TEMPORALMENTE Variables del holder seleccionado
 					var _object_temp = resource_obj;
 					var _name_temp = resource_name;
 					var _type_temp = resource_type;
-				
+					global.resource_count= resource_count;
+
+					//SETEAR Variables del holder seleccionado con el holder temporal
 					resource_count = _count;
 					resource_obj = _h_temp.resource_obj;
 					resource_name = _h_temp.resource_name;
 					resource_type = _h_temp.resource_type; 
-				
-					_h_temp.resource_count=_temp_count;
-					_h_temp.resource_obj=_object_temp;
-					_h_temp.resource_name=_name_temp;
-					_h_temp.resource_type=_type_temp;
-				
+					
+					//SETEAR Variables del holder temporal con las variables temporales
+					_h_temp.resource_obj = _object_temp;
+					_h_temp.resource_name = _name_temp;
+					_h_temp.resource_type = _type_temp;
+					
 					with(resource_obj)
 					{
 						in_movement = false;
 					}
 				}
+			break;
+			case RESOURCE_TYPE.SINGLE_OBJ:
+			if(resource_obj!= _h_temp.resource_obj)
+			{
+				with(resource_obj)
+				{
+					in_movement = true;
+				}
+					
+				//GUARDAR TEMPORALMENTE Variables del holder seleccionado
+				var _object_temp = resource_obj;
+				var _name_temp = resource_name;
+				var _type_temp = resource_type;
+				global.resource_count= resource_count;
+
+				//SETEAR Variables del holder seleccionado con el holder temporal
+				resource_count = _count;
+				resource_obj = _h_temp.resource_obj;
+				resource_name = _h_temp.resource_name;
+				resource_type = _h_temp.resource_type; 
+					
+				//SETEAR Variables del holder temporal con las variables temporales
+				_h_temp.resource_obj = _object_temp;
+				_h_temp.resource_name = _name_temp;
+				_h_temp.resource_type = _type_temp;
+					
+				with(resource_obj)
+				{
+					in_movement = false;
+				}
+			}
+			else
+			{
+				global.resource_can_move=false;
+				with(resource_obj)
+				{
+					in_movement = false;
+				}
+				resource_count = _count;
+				global.holder_t = noone;
+				global.resource_count=0;
+			}
 			break;
 			case RESOURCE_TYPE.EMPTY://instance_create_layer(_h_temp.x,_h_temp.y, "Instances",_h_temp.object_index) ;//
 				global.resource_can_move = false;

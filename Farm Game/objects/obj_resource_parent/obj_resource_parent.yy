@@ -33,6 +33,7 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"resource_sprite","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"noone","varType":5,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"resource_name","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"","varType":2,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"resource_description","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"","varType":2,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"price","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":1,},
   ],
   "solid": false,
   "spriteId": null,

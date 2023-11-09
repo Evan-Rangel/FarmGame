@@ -8,3 +8,8 @@ resource_max = 64;
 resource_type= RESOURCE_TYPE.EMPTY;
 resource_obj=noone;
 resource_name="";
+
+
+
+is_mouse=false;
+

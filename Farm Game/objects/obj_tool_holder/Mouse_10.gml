@@ -3,7 +3,9 @@
 
 if(resource_obj!=noone)
 {
-	resource_show_info();
+	is_mouse=true;
+	alarm[0]=fps*0.5;
+
 }
 
 

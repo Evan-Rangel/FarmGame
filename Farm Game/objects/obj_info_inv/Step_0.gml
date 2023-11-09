@@ -1,11 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-
-if(resource_obj!=noone)
+if(can_draw)
 {
-	is_mouse=false;
-	resource_hide_info();
+	x=mouse_x;
+	y=mouse_y;
 }
-
-
