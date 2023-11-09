@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-script_execute(variable_name, 0);
+//script_execute(variable_name, 0);
 
 
 /*
