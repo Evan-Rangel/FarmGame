@@ -7,8 +7,3 @@ function Objects(_object, _count)constructor
 	count = _count;
 }
 
-
-function testeo()
-{ 
-	show_debug_message("ENTROOOO");
-}
