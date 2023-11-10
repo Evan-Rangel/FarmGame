@@ -37,6 +37,11 @@ holder_t=noone;
 max_capacity=64;
 resource_info_holder=noone;
 
+
+//VARIABLES PARA TIENDA
+in_store=false;
+
+
 //comentacion
 function resource_show_info()
 {
