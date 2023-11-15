@@ -3,13 +3,13 @@
 
 is_in_toolbar=false;
 idx=0;//posicion en la grilla
-resource_count=0;
+//resource_count=0;
 resource_max = 64;
-resource_type= RESOURCE_TYPE.EMPTY;
-resource_obj=noone;
-resource_name="";
+//resource_type= RESOURCE_TYPE.EMPTY;
+//resource_obj=noone;
+//resource_name="";
 
-
+depth=-1;
 
 is_mouse=false;
 

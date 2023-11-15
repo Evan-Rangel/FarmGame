@@ -41,7 +41,14 @@ resource_info_holder=noone;
 //VARIABLES PARA TIENDA
 in_store=false;
 
-
+function obj_select_event()
+{
+	resource_obj.on_select=true;
+}
+function obj_unselect_event()
+{
+	resource_obj.on_select=false;
+}
 //comentacion
 function resource_show_info()
 {

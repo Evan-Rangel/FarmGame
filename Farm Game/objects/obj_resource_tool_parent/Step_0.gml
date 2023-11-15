@@ -1,22 +1,30 @@
 /// @description Insert description here
+// You can write your code in this editor
 
 
-if instance_exists(Kirby_Player) 
+
+
+
+
+
+// Inherit the parent event
+event_inherited();
+
+if (instance_exists(Kirby_Player) && on_select)
 {
 	
 	if (Kirby_Player.sprite_index = Kirby_Walk_Right)
 	{
 		x = Kirby_Player.x + 23;
-		sprite_index = spr_hoe1_right;
+		sprite_index = right_spr;
 	}
 	
 	else
 	{
 		x = Kirby_Player.x - 23;
-		sprite_index = spr_hoe1_left;
+		sprite_index = left_spr;
 	}
 	
 	y = Kirby_Player.y - 10;
 }
-
 

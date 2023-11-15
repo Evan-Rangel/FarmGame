@@ -8,19 +8,19 @@ v = 2;
 
 //Espada
 sword = false;
-instance_deactivate_object(obj_sword1);
+//instance_deactivate_object(obj_sword1);
 
 //Pala
 shovel = false;
-instance_deactivate_object(obj_shovel1);
+//instance_deactivate_object(obj_shovel1);
 
 //Asada
 hoe = false;
-instance_deactivate_object(obj_hoe1);
+//instance_deactivate_object(obj_hoe1);
 
 //Regadera
 watercan = false;
-instance_deactivate_object(obj_watercan1);
+//instance_deactivate_object(obj_watercan1);
 
 
 

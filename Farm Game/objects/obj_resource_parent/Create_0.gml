@@ -6,4 +6,5 @@ in_movement=false;
 count=0;
 depth=-10;
 
-
+on_select=false;
+on_interact=false;
