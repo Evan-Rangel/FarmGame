@@ -60,7 +60,6 @@
     {"name":"Sprite38","order":16,"path":"sprites/Sprite38/Sprite38.yy",},
     {"name":"spr_button_pressed","order":3,"path":"sprites/spr_button_pressed/spr_button_pressed.yy",},
     {"name":"spr_watercan1_left","order":1,"path":"sprites/spr_watercan1_left/spr_watercan1_left.yy",},
-    {"name":"obj_plantingController","order":2,"path":"objects/obj_plantingController/obj_plantingController.yy",},
     {"name":"spr_lechugaNaranja3","order":2,"path":"sprites/spr_lechugaNaranja3/spr_lechugaNaranja3.yy",},
     {"name":"obj_button_exit","order":3,"path":"objects/obj_button_exit/obj_button_exit.yy",},
     {"name":"obj_resource_parent","order":1,"path":"objects/obj_resource_parent/obj_resource_parent.yy",},

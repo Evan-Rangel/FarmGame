@@ -38,6 +38,7 @@ max_capacity=64;
 resource_info_holder=noone;
 
 
+
 //VARIABLES PARA TIENDA
 in_store=false;
 
@@ -48,6 +49,20 @@ function obj_select_event()
 function obj_unselect_event()
 {
 	resource_obj.on_select=false;
+}
+
+function obj_interact_tool_event()
+{
+	with(global.toolbar)
+	{
+		with(holders[index])
+		{
+			with(resource_obj)
+			{
+				event_user(0);
+			}
+		}
+	}
 }
 //comentacion
 function resource_show_info()

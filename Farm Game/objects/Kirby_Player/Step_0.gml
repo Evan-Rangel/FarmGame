@@ -55,3 +55,10 @@ switch(direction)
         break;
 
 }
+
+if(mouse_check_button_pressed(1))
+{
+obj_interact_tool_event();
+}
+
+//show_debug_message(point_distance(mouse_x,mouse_y, x, y));

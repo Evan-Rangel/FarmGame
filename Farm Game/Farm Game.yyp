@@ -83,7 +83,6 @@
     {"id":{"name":"Sprite38","path":"sprites/Sprite38/Sprite38.yy",},},
     {"id":{"name":"spr_button_pressed","path":"sprites/spr_button_pressed/spr_button_pressed.yy",},},
     {"id":{"name":"spr_watercan1_left","path":"sprites/spr_watercan1_left/spr_watercan1_left.yy",},},
-    {"id":{"name":"obj_plantingController","path":"objects/obj_plantingController/obj_plantingController.yy",},},
     {"id":{"name":"spr_lechugaNaranja3","path":"sprites/spr_lechugaNaranja3/spr_lechugaNaranja3.yy",},},
     {"id":{"name":"spr_axe","path":"sprites/spr_axe/spr_axe.yy",},},
     {"id":{"name":"obj_button_exit","path":"objects/obj_button_exit/obj_button_exit.yy",},},

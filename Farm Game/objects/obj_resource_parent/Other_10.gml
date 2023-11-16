@@ -1,0 +1,5 @@
+/// @description Resource Interact Event
+
+
+
+

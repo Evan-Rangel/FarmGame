@@ -30,5 +30,5 @@
     "path": "sprites/spr_hoyo/spr_hoyo.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

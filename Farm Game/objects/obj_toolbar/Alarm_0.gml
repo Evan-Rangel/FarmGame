@@ -6,6 +6,7 @@ for( index=0;index<9;index++)
 	 holders[index]=instance_find(obj_tool_holder,index);
 }
 
+
 for(index=0 ; index< array_length(holders); index++)
 {
 	holders[index].sprite_index=spr_tool_holder_normal;
@@ -15,3 +16,10 @@ for(index=0 ; index< array_length(holders); index++)
 holders[0].sprite_index=spr_tool_holder_select;
 index=0;
 get_inventory_holders();
+with(holders[index])
+{
+	if(instance_exists(resource_obj))
+	{
+		obj_select_event();
+	}
+}
