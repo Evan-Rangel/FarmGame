@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "ObjteosNecesariosCultivos",
-    "path": "folders/Objects/Cultivos/ObjteosNecesariosCultivos.yy",
+    "name": "ObjetosNecesariosCultivos",
+    "path": "folders/Objects/Cultivos/ObjetosNecesariosCultivos.yy",
   },
   "parentObjectId": null,
   "persistent": false,
