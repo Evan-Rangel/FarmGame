@@ -1,4 +1,10 @@
 /// @description Insert description here
+// You can write your code in this editor
+
+
+
+// Inherit the parent event
+event_inherited();
 
 if following {
     // Si sigue al personaje, ajusta la posición del sprite
@@ -39,6 +45,4 @@ if mouse_check_button_pressed(mb_left)
 			}
 		}
 	}
-
-show_debug_message("deberia estar plantando");
 }

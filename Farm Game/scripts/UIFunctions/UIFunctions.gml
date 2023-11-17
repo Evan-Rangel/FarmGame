@@ -58,7 +58,7 @@ function obj_interact_tool_event()
 		with(holders[index])
 		{
 			with(resource_obj)
-			{
+			{S
 				event_user(0);
 			}
 		}

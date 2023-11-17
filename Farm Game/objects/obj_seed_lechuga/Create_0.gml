@@ -1,4 +1,10 @@
 /// @description Insert description here
+// You can write your code in this editor
+
+
+
+// Inherit the parent event
+event_inherited();
 
 following = false; // Variable para determinar si el sprite sigue al personaje
 planted = false;   // Variable para determinar si la semilla está plantada

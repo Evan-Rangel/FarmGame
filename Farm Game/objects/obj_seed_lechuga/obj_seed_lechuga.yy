@@ -3,17 +3,25 @@
   "resourceVersion": "1.0",
   "name": "obj_seed_lechuga",
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_parent","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"propertyId":{"name":"resource_description","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"value":"Lechuga pai",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_parent","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"propertyId":{"name":"resource_name","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"value":"Semilla de lechuga",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_parent","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"propertyId":{"name":"resource_sprite","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"value":"spr_seed_lechuga",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_parent","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"propertyId":{"name":"resource_t","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"value":"RESOURCE_TYPE.MULTIPLE_OBJ",},
+  ],
   "parent": {
     "name": "Semillas",
     "path": "folders/Objects/Cultivos/Semillas.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_resource_farm_parent",
+    "path": "objects/obj_resource_farm_parent/obj_resource_farm_parent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

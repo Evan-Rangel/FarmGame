@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_sword1",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_parent","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"propertyId":{"name":"resource_t","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"value":"RESOURCE_TYPE.SINGLE_OBJ",},
