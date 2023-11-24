@@ -2,18 +2,25 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_lechuga",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
-  ],
+  "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_farm_parent","path":"objects/obj_resource_farm_parent/obj_resource_farm_parent.yy",},"propertyId":{"name":"planted_sprites","path":"objects/obj_resource_farm_parent/obj_resource_farm_parent.yy",},"value":"spr_lechuga1",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_farm_parent","path":"objects/obj_resource_farm_parent/obj_resource_farm_parent.yy",},"propertyId":{"name":"time_to_grow","path":"objects/obj_resource_farm_parent/obj_resource_farm_parent.yy",},"value":"1000",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_parent","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"propertyId":{"name":"resource_t","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"value":"RESOURCE_TYPE.MULTIPLE_OBJ",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_parent","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"propertyId":{"name":"resource_sprite","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"value":"spr_seed_lechuga",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_parent","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"propertyId":{"name":"resource_name","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"value":"Lechuga",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_parent","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"propertyId":{"name":"resource_description","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"value":"Es una lechuga",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_farm_parent","path":"objects/obj_resource_farm_parent/obj_resource_farm_parent.yy",},"propertyId":{"name":"estado","path":"objects/obj_resource_farm_parent/obj_resource_farm_parent.yy",},"value":"PLANT_STATE.IN_UI",},
+  ],
   "parent": {
     "name": "Cultivos",
     "path": "folders/Objects/Cultivos.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_resource_farm_parent",
+    "path": "objects/obj_resource_farm_parent/obj_resource_farm_parent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -27,9 +34,7 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"estado","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"plantado","varType":2,},
-  ],
+  "properties": [],
   "solid": false,
   "spriteId": {
     "name": "spr_lechuga1",

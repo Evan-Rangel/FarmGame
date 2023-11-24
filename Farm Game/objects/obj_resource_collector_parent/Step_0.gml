@@ -9,9 +9,9 @@
 
 // Inherit the parent event
 event_inherited();
-/*
-if(on_select)
+
+if (instance_exists(Kirby_Player) && on_select)
 {
-	draw_self();
+	y = Kirby_Player.y - 10;
+	x= Kirby_Player.x;
 }
-*/

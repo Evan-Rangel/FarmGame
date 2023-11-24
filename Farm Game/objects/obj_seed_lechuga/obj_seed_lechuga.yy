@@ -8,20 +8,12 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_parent","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"propertyId":{"name":"resource_description","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"value":"Lechuga pai",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_parent","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"propertyId":{"name":"resource_name","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"value":"Semilla de lechuga",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_parent","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"propertyId":{"name":"resource_sprite","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"value":"spr_seed_lechuga",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_parent","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"propertyId":{"name":"resource_t","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"value":"RESOURCE_TYPE.MULTIPLE_OBJ",},
-  ],
+  "overriddenProperties": [],
   "parent": {
     "name": "Semillas",
     "path": "folders/Objects/Cultivos/Semillas.yy",
   },
-  "parentObjectId": {
-    "name": "obj_resource_farm_parent",
-    "path": "objects/obj_resource_farm_parent/obj_resource_farm_parent.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -37,10 +29,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_seed_lechuga",
-    "path": "sprites/spr_seed_lechuga/spr_seed_lechuga.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

@@ -9,9 +9,7 @@
 
 // Inherit the parent event
 event_inherited();
-/*
-if(on_select)
-{
-	draw_self();
-}
-*/
+is_planted=false;
+image_speed=0;
+image_index=0;
+current_image=0;

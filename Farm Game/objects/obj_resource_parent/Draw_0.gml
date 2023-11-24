@@ -2,11 +2,10 @@
 // You can write your code in this editor
 
 
-if(in_movement)
+
+
+
+if(on_select)
 {
-	x=mouse_x;
-	y=mouse_y;
-	
+	draw_self();
 }
-
-

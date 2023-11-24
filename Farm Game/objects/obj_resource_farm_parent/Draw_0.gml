@@ -2,11 +2,11 @@
 // You can write your code in this editor
 
 
-if(in_movement)
-{
-	x=mouse_x;
-	y=mouse_y;
-	
-}
 
+
+if(estado!= PLANT_STATE.IN_UI)
+{
+	show_debug_message(estado);
+	draw_self();
+}
 

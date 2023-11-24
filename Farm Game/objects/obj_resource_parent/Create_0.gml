@@ -3,6 +3,7 @@
 
 sprite_index=resource_sprite;
 in_movement=false;
+
 count=0;
 depth=-10;
 

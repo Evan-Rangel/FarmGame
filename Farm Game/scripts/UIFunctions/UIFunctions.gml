@@ -7,6 +7,14 @@ enum RESOURCE_TYPE
 	MULTIPLE_OBJ,
 	EMPTY
 }
+enum PLANT_STATE
+{
+	NONE,
+	IN_UI,
+	PLANTADO,
+	CRECIENDO,
+	COSECHABLE
+}
 function vector(_x,_y) constructor
 {
 	x=_x;
@@ -51,7 +59,7 @@ function obj_unselect_event()
 	resource_obj.on_select=false;
 }
 
-function obj_interact_tool_event()
+function obj_interact_resource_event()
 {
 	with(global.toolbar)
 	{
