@@ -25,5 +25,7 @@ if (_inst != noone && point_distance(_inst.x, _inst.y, x,y )<30 && _inst.visible
 	image_speed=0;
 	image_index=1;
 	estado= PLANT_STATE.PLANTADO;	
+	
+
 
 }
