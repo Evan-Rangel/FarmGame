@@ -9,9 +9,5 @@
 
 // Inherit the parent event
 event_inherited();
-is_planted=false;
-image_speed=0;
-image_index=1;
-current_image=0;
 
-level_water=0;
+var _algo=1;

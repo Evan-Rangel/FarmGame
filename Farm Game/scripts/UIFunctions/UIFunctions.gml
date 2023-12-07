@@ -15,6 +15,7 @@ enum PLANT_STATE
 	CRECIENDO,
 	COSECHABLE
 }
+
 function vector(_x,_y) constructor
 {
 	x=_x;
@@ -58,7 +59,6 @@ function obj_unselect_event()
 {
 	resource_obj.on_select=false;
 }
-
 function obj_interact_resource_event()
 {
 	with(global.toolbar)
@@ -69,6 +69,39 @@ function obj_interact_resource_event()
 			{
 				event_user(0);
 			}
+		}
+	}
+}
+function delete_to_inventory()
+{
+	
+	sprite_index=planted_sprites;
+	in_movement=false;
+	on_select=false;
+	is_planted=true;
+	image_speed=0;
+	image_index=0;
+	estado= PLANT_STATE.PLANTADO;	
+	
+	alarm[0]=time_to_grow;
+
+	
+	
+	with(global.toolbar)
+	{
+		with(holders[index])
+		{
+			resource_count--;
+			if(resource_count<=0)
+			{
+				with(resource_obj)
+				{instance_destroy();}
+				resource_type=RESOURCE_TYPE.EMPTY;
+				resource_name="";
+				resource_obj=noone;
+				resource_count=0;
+			}
+				
 		}
 	}
 }
@@ -270,7 +303,6 @@ function get_inventory_holders()
 	global.toolbar=instance_find(obj_toolbar, 0);
 	hide_inventory();
 }
-
 function show_inventory()
 {
 	_idx=0;
@@ -294,7 +326,6 @@ function show_inventory()
 	global.inv_background.visible=true;
 	global.toolbar.visible=false;
 }
-
 function hide_inventory()
 {
 _idx=0;

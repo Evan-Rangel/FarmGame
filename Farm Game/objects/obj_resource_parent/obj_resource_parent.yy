@@ -30,7 +30,11 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"resource_t","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"RESOURCE_TYPE.EMPTY","varType":4,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"resource_t","filters":[],"listItems":[
+        "RESOURCE_TYPE.EMPTY",
+        "RESOURCE_TYPE.SINGLE_OBJ",
+        "RESOURCE_TYPE.MULTIPLE_OBJ",
+      ],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"RESOURCE_TYPE.EMPTY","varType":6,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"resource_sprite","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"noone","varType":5,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"resource_name","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"","varType":2,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"resource_description","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"","varType":2,},

@@ -4,7 +4,6 @@
 
 
 // Inherit the parent event
-event_inherited();
 
 following = false; // Variable para determinar si el sprite sigue al personaje
 planted = false;   // Variable para determinar si la semilla está plantada

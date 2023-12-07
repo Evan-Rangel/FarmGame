@@ -4,7 +4,6 @@
 
 
 // Inherit the parent event
-event_inherited();
 
 if following {
     // Si sigue al personaje, ajusta la posición del sprite
