@@ -1,16 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Kirby_Player",
+  "name": "obj_hitbox",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Kirby",
-    "path": "folders/Objects/Objetos Necesarios/Kirby.yy",
+    "name": "Objetos",
+    "path": "folders/Tury/Objetos.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_idle_front",
-    "path": "sprites/spr_idle_front/spr_idle_front.yy",
+    "name": "Sprite84",
+    "path": "sprites/Sprite84/Sprite84.yy",
   },
   "spriteMaskId": null,
   "visible": true,

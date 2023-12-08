@@ -1,8 +1,8 @@
 /// @description Jugador
+
 sprite_index = Kirby_Walk_Right;
 image_speed = 0;
 image_index = 0;
-
 //Velocidad
 v = 2;
 
@@ -23,4 +23,5 @@ watercan = false;
 //instance_deactivate_object(obj_watercan1);
 
 
-
+// Inicializa la variable de estado de la animación de ataque
+attack_animation = false;

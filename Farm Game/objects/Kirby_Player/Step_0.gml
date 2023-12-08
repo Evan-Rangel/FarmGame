@@ -4,6 +4,7 @@
 horizontal = 0;
 vertical = 0;
 
+
 if keyboard_check(ord("D"))
 {
     horizontal += 1;
@@ -24,38 +25,99 @@ if keyboard_check(ord("S"))
     vertical += 1;
 }
 
+
 // Verificar dirección y velocidad
 
 if (horizontal != 0 || vertical != 0)
 {
+	// Si el jugador se está moviendo
+	
     direction = point_direction(0, 0, horizontal, vertical);
     speed = v;
     image_speed = 1;
+	
+	// Asignar sprite según la dirección
+	switch(direction)
+	{
+		case 0: sprite_index = spr_walk_right; break;
+		case 45:
+		case 90: sprite_index = spr_walk_back; break;
+		case 135:
+		case 180: sprite_index = spr_walk_left; break;
+		case 225:
+		case 270: sprite_index = spr_walk_front; break;
+		case 315:
+	}
+
 }
 else
 {
+	// Si el jugador no se está moviendo
     speed = 0;
-    image_speed = 0;
-    image_index = 0;
+    image_speed = 1;
+	
+	// Asignar sprite de idle según la dirección
+	switch(direction)
+	{
+	    case 0: sprite_index = spr_idle_right; break;
+	    case 45:
+	    case 90: sprite_index = spr_idle_back; break;
+	    case 135:
+	    case 180: sprite_index = spr_idle_left; break;
+	    case 225:
+	    case 270: sprite_index = spr_idle_front; break;
+	    case 315: 
+	}
+	
 }
 
-// Asignar sprite según la dirección
-switch(direction)
-{
-	case 315:
-	case 45:
-    case 0:
-        sprite_index = Kirby_Walk_Right;
-        break;
+// Step (paso) evento del objeto del jugador
 
-	case 225:
-	case 135:
-    case 180:
-        sprite_index = Kirby_Walk_Left;
-        break;
+// Verifica si la animación de ataque está activada
+if (attack_animation) {
 
+    // Lógica para determinar qué animación de ataque reproducir según la dirección
+    if (direction >= 45 && direction < 135) 
+	{
+        sprite_index = spr_attack_clean_back;
+		// Crear hitbox
+        var inst_hitbox = instance_create_layer(x, y - 16, "Instances_jugador", obj_hitbox);
+        inst_hitbox.direction = direction;
+		
+    } 
+	else if (direction >= 135 && direction < 225) 
+	{
+        sprite_index = spr_attack_clean_left;
+		// Crear hitbox
+        var inst_hitbox = instance_create_layer(x - 16, y, "Instances_jugador", obj_hitbox);
+        inst_hitbox.direction = direction;
+    } 
+	else if (direction >= 225 && direction < 315) 
+	{
+        sprite_index = spr_attack_clean_front; 
+		// Crear hitbox
+        var inst_hitbox = instance_create_layer(x, y + 16, "Instances_jugador", obj_hitbox);
+        inst_hitbox.direction = direction;
+    } 
+	else 
+	{
+        sprite_index = spr_attack_clean_right; 
+		// Crear hitbox
+        var inst_hitbox = instance_create_layer(x + 16, y, "Instances_jugador", obj_hitbox);
+        inst_hitbox.direction = direction;
+    }
+	
+	// Establecer la variable de ataque en el hitbox
+    inst_hitbox.attack = true;
 }
 
+
+
+// Restablecer la variable de ataque cuando se complete la animación de ataque
+if (attack_animation && image_index == image_number - 7) {
+    attack_animation = false;
+    sprite_index = spr_idle_right; // Reemplaza con el nombre de tu sprite idle
+}
 /*-------------------------------------------------------------------------------------------------*/
 
 if keyboard_check_pressed(ord("E")) 
