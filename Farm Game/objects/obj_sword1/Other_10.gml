@@ -12,7 +12,6 @@ if (instance_exists(Kirby_Player)) {
     Kirby_Player.attack_animation = true;  // Puedes tener una variable de estado para la animación de ataque en el objeto del jugador
 }
 
-show_debug_message("ESPADA DE MI PAPA");
 
 
 

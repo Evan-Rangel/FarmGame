@@ -13,6 +13,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_parent","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"propertyId":{"name":"resource_description","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"value":"Las lechugas no tienen semilla",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_farm_parent","path":"objects/obj_resource_farm_parent/obj_resource_farm_parent.yy",},"propertyId":{"name":"estado","path":"objects/obj_resource_farm_parent/obj_resource_farm_parent.yy",},"value":"PLANT_STATE.IN_UI",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_farm_parent","path":"objects/obj_resource_farm_parent/obj_resource_farm_parent.yy",},"propertyId":{"name":"Rename","path":"objects/obj_resource_farm_parent/obj_resource_farm_parent.yy",},"value":"Lechuga",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_farm_parent","path":"objects/obj_resource_farm_parent/obj_resource_farm_parent.yy",},"propertyId":{"name":"MinLevelWater","path":"objects/obj_resource_farm_parent/obj_resource_farm_parent.yy",},"value":"5",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_parent","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"propertyId":{"name":"count_store","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"value":"10",},
   ],
   "parent": {
     "name": "Cultivos",

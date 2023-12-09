@@ -51,6 +51,7 @@ resource_info_holder=noone;
 //VARIABLES PARA TIENDA
 in_store=false;
 
+
 function obj_select_event()
 {
 	resource_obj.on_select=true;
@@ -84,7 +85,7 @@ function delete_to_inventory()
 	estado= PLANT_STATE.PLANTADO;	
 	
 	alarm[0]=time_to_grow;
-
+	alarm[1]=time_to_grow/3;
 	
 	
 	with(global.toolbar)
