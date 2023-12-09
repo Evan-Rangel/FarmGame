@@ -4,7 +4,7 @@ sprite_index = Kirby_Walk_Right;
 image_speed = 0;
 image_index = 0;
 //Velocidad
-v = 2;
+v = 3;
 
 //Espada
 sword = false;

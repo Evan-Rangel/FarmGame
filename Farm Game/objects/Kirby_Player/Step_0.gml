@@ -4,23 +4,24 @@
 horizontal = 0;
 vertical = 0;
 
+//tilemap_get_at_pixel(tiles, x, y);
 
-if keyboard_check(ord("D"))
+if (keyboard_check(ord("D")))
 {
     horizontal += 1;
 }
 
-if keyboard_check(ord("A"))
+else if (keyboard_check(ord("A")))
 {
     horizontal -= 1;
 }
 
-if keyboard_check(ord("W"))
+else if (keyboard_check(ord("W")))
 {
     vertical -= 1;
 }
 
-if keyboard_check(ord("S"))
+else if (keyboard_check(ord("S")))
 {
     vertical += 1;
 }
