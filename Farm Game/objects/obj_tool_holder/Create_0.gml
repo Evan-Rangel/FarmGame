@@ -3,12 +3,9 @@
 
 is_in_toolbar=false;
 idx=0;//posicion en la grilla
-//resource_count=0;
 resource_max = 64;
-//resource_type= RESOURCE_TYPE.EMPTY;
-//resource_obj=noone;
-//resource_name="";
-
+image_speed=0;
+image_index=0;
 depth=-1;
 
 is_mouse=false;

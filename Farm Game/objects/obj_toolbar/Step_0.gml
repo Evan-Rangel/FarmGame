@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if(!global.can_show_inventory)
 {
-holders[index].sprite_index=spr_tool_holder_normal;
+holders[index].image_index=0;
 switch(keyboard_key)
 {
 	case ord("1"):
@@ -34,7 +34,7 @@ switch(keyboard_key)
 	break;
 }
 
-holders[index].sprite_index=spr_tool_holder_select;
+holders[index].image_index=1;
 
 }
 

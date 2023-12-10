@@ -27,7 +27,7 @@
   "origin": 0,
   "parent": {
     "name": "LechugaNaranja",
-    "path": "folders/Sprites/Cultivos/LechugaNaranja.yy",
+    "path": "folders/Cultivos/LechugaNaranja.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

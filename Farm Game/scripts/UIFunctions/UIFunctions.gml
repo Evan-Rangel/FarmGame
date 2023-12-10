@@ -315,7 +315,7 @@ function show_inventory()
 			_idx++;
 			if(_i==0)
 			{
-				temp_holder.y=335;
+				temp_holder.y=global.toolbar.y-400;
 			}
 			else
 			{
@@ -338,7 +338,7 @@ for( _i=0; _i<global.inv_ylenght;_i++)
 			temp_holder=ds_map_find_value(global.inv_h, _idx);
 			if(_i==0)
 			{
-				temp_holder.y=704;
+				temp_holder.y=global.toolbar.y;
 			}
 			else
 			{

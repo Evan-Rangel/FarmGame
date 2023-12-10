@@ -50,7 +50,7 @@
   "origin": 0,
   "parent": {
     "name": "LechugaAmarilla",
-    "path": "folders/Sprites/Cultivos/LechugaAmarilla.yy",
+    "path": "folders/Cultivos/LechugaAmarilla.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

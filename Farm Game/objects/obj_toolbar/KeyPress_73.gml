@@ -4,9 +4,9 @@
 if(global.can_show_inventory)
 {
 hide_inventory();
-holders[index].sprite_index=spr_tool_holder_select;
+holders[index].image_index=1;
 }
 else{
 show_inventory();
-holders[index].sprite_index=spr_tool_holder_normal;
+holders[index].image_index=0;
 }

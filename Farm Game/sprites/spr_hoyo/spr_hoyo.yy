@@ -26,7 +26,7 @@
   "origin": 4,
   "parent": {
     "name": "SpritesNecesariosCultivos",
-    "path": "folders/Sprites/Cultivos/SpritesNecesariosCultivos.yy",
+    "path": "folders/Cultivos/SpritesNecesariosCultivos.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

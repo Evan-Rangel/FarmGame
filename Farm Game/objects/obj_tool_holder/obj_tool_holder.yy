@@ -38,10 +38,10 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"resource_obj","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"noone","varType":4,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"resource_name","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"","varType":2,},
   ],
-  "solid": true,
+  "solid": false,
   "spriteId": {
-    "name": "spr_tool_holder_normal",
-    "path": "sprites/spr_tool_holder_normal/spr_tool_holder_normal.yy",
+    "name": "spr_ui_inventory_slot2",
+    "path": "sprites/spr_ui_inventory_slot2/spr_ui_inventory_slot2.yy",
   },
   "spriteMaskId": null,
   "tags": [

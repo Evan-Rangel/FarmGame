@@ -5,7 +5,6 @@
 
 if( resource_obj>0)
 {
-
 	if(global.gold>=resource_obj.price)
 	{
 		resource_count--;

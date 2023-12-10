@@ -49,7 +49,7 @@
   "origin": 4,
   "parent": {
     "name": "LechugaRoja",
-    "path": "folders/Sprites/Cultivos/LechugaRoja.yy",
+    "path": "folders/Cultivos/LechugaRoja.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

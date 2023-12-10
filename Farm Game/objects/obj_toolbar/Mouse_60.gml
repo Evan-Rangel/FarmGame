@@ -8,7 +8,7 @@ with(holders[index])
 		obj_unselect_event();
 	}
 }
-holders[index].sprite_index=spr_tool_holder_normal;
+holders[index].image_index=0;
 
 if(index<array_length(holders)-1)
 {
@@ -18,7 +18,7 @@ else
 {
 	index=0;
 }
-holders[index].sprite_index=spr_tool_holder_select;
+holders[index].image_index=1;
 with(holders[index])
 {
 	if(instance_exists(resource_obj))

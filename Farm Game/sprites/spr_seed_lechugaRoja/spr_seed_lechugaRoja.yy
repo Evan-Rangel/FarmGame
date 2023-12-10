@@ -27,7 +27,7 @@
   "origin": 0,
   "parent": {
     "name": "Semillas",
-    "path": "folders/Sprites/Cultivos/Semillas.yy",
+    "path": "folders/Cultivos/Semillas.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
