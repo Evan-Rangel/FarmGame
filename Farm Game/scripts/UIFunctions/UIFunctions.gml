@@ -46,6 +46,8 @@ holder_t=noone;
 max_capacity=64;
 resource_info_holder=noone;
 
+holder_pos_inv=0;
+holder_pos_toolbar=0;
 
 
 //VARIABLES PARA TIENDA
@@ -131,6 +133,8 @@ function resource_cancel_move_position()
 	global.resource_can_move = false;
 	in_movement = false;
 	add_to_inventory(global.resource, global.resource_count);
+	global.sprite_to_move=noone;
+
 }
 function resource_start_move_position(_resource, _count)
 {
@@ -157,7 +161,7 @@ function resource_stop_move_position()
 					global.resource_can_move = false;
 					with(_h_temp)
 					{
-						resource_show_info();
+						//resource_show_info();
 					}
 					var _result = resource_count + _count - global.max_capacity;
 					if(_result>0)
@@ -261,7 +265,7 @@ function resource_stop_move_position()
 				global.resource_can_move = false;
 				with(_h_temp)
 				{
-					resource_show_info();
+					//resource_show_info();
 				}
 				resource_obj=instance_create_layer(0,0, "Instances", _h_temp.resource_obj.object_index) ;
 				resource_type = _h_temp.resource_type;
@@ -315,7 +319,7 @@ function show_inventory()
 			_idx++;
 			if(_i==0)
 			{
-				temp_holder.y=global.toolbar.y-400;
+				temp_holder.y=global.holder_pos_inv;
 			}
 			else
 			{
@@ -323,14 +327,15 @@ function show_inventory()
 			}
 		}
 	}
+
 	global.can_show_inventory=true;
 	global.inv_background.visible=true;
 	global.toolbar.visible=false;
+
 }
 function hide_inventory()
 {
 _idx=0;
-
 for( _i=0; _i<global.inv_ylenght;_i++)
 	{
 		for( _j=0; _j<global.inv_xlenght;_j++)
@@ -338,7 +343,7 @@ for( _i=0; _i<global.inv_ylenght;_i++)
 			temp_holder=ds_map_find_value(global.inv_h, _idx);
 			if(_i==0)
 			{
-				temp_holder.y=global.toolbar.y;
+				temp_holder.y=global.holder_pos_toolbar;
 			}
 			else
 			{

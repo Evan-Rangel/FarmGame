@@ -91,7 +91,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.106",
+    "IDEVersion": "2023.11.0.121",
   },
   "resources": [
     {"id":{"name":"spr_lechugaRoja3","path":"sprites/spr_lechugaRoja3/spr_lechugaRoja3.yy",},},
@@ -135,9 +135,11 @@
     {"id":{"name":"spr_wateringCan_golden_front","path":"sprites/spr_wateringCan_golden_front/spr_wateringCan_golden_front.yy",},},
     {"id":{"name":"spr_walk_left_hold","path":"sprites/spr_walk_left_hold/spr_walk_left_hold.yy",},},
     {"id":{"name":"TileSetVer1_1","path":"sprites/TileSetVer1_1/TileSetVer1_1.yy",},},
+    {"id":{"name":"Test","path":"rooms/Test/Test.yy",},},
     {"id":{"name":"obj_switch3_2","path":"objects/obj_switch3_2/obj_switch3_2.yy",},},
     {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"id":{"name":"UI_Scythe_Iron","path":"sprites/UI_Scythe_Iron/UI_Scythe_Iron.yy",},},
+    {"id":{"name":"spr_ui_background_inv","path":"sprites/spr_ui_background_inv/spr_ui_background_inv.yy",},},
     {"id":{"name":"spr_wateringCan_dimond_front","path":"sprites/spr_wateringCan_dimond_front/spr_wateringCan_dimond_front.yy",},},
     {"id":{"name":"spr_tool_holder_normal","path":"sprites/spr_tool_holder_normal/spr_tool_holder_normal.yy",},},
     {"id":{"name":"spr_hoyo","path":"sprites/spr_hoyo/spr_hoyo.yy",},},
@@ -354,6 +356,7 @@
     {"roomId":{"name":"MainMenuRoom","path":"rooms/MainMenuRoom/MainMenuRoom.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
+    {"roomId":{"name":"Test","path":"rooms/Test/Test.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

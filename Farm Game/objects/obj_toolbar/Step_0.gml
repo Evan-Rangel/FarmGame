@@ -38,4 +38,3 @@ holders[index].image_index=1;
 
 }
 
-

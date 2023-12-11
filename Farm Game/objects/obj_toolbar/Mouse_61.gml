@@ -10,7 +10,6 @@ with(holders[index])
 }
 holders[index].image_index=0;
 
-
 if(index>0)
 {
 	index--;
