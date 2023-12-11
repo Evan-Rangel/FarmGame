@@ -8,3 +8,5 @@ instance_destroy(obj_topLeftDoor2);
 instance_destroy(obj_topRightDoor2);
 instance_destroy(obj_topStatue2);
 instance_destroy(obj_bottomStatue2);
+
+
