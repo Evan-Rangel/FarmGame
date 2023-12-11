@@ -76,7 +76,6 @@
   ],
   "ResourceOrderSettings": [
     {"name":"spr_lechugaRoja3","order":2,"path":"sprites/spr_lechugaRoja3/spr_lechugaRoja3.yy",},
-    {"name":"TileSet4","order":1,"path":"tilesets/TileSet4/TileSet4.yy",},
     {"name":"TestStoreRoom","order":3,"path":"rooms/TestStoreRoom/TestStoreRoom.yy",},
     {"name":"spr_wateringCan_golden_left","order":6,"path":"sprites/spr_wateringCan_golden_left/spr_wateringCan_golden_left.yy",},
     {"name":"obj_topRightDoor1","order":2,"path":"objects/obj_topRightDoor1/obj_topRightDoor1.yy",},
@@ -225,6 +224,7 @@
     {"name":"UI_Scythe_Gold","order":13,"path":"sprites/UI_Scythe_Gold/UI_Scythe_Gold.yy",},
     {"name":"spr_switch1","order":8,"path":"sprites/spr_switch1/spr_switch1.yy",},
     {"name":"UI_Axe_Gold","order":1,"path":"sprites/UI_Axe_Gold/UI_Axe_Gold.yy",},
+    {"name":"TileSet4","order":1,"path":"tilesets/TileSet4/TileSet4.yy",},
     {"name":"spr_wateringCan_golden_back","order":4,"path":"sprites/spr_wateringCan_golden_back/spr_wateringCan_golden_back.yy",},
     {"name":"spr_axe_iron","order":2,"path":"sprites/spr_axe_iron/spr_axe_iron.yy",},
     {"name":"obj_switch1_2","order":1,"path":"objects/obj_switch1_2/obj_switch1_2.yy",},
