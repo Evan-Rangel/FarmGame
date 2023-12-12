@@ -79,6 +79,7 @@
     {"name":"WateringCan","order":5,"path":"folders/Tury/Sprites/Tools/WateringCan.yy",},
     {"name":"Wood","order":7,"path":"folders/Tury/Sprites/Wood.yy",},
     {"name":"tileset","order":3,"path":"folders/Tury/tileset.yy",},
+    {"name":"ConnectingRooms","order":3,"path":"folders/Tury/Objetos/ConnectingRooms.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_lechugaRoja3","order":2,"path":"sprites/spr_lechugaRoja3/spr_lechugaRoja3.yy",},
@@ -132,6 +133,7 @@
     {"name":"spr_plant_type3","order":2,"path":"sprites/spr_plant_type3/spr_plant_type3.yy",},
     {"name":"spr_watering_right","order":3,"path":"sprites/spr_watering_right/spr_watering_right.yy",},
     {"name":"spr_watercan1_left","order":1,"path":"sprites/spr_watercan1_left/spr_watercan1_left.yy",},
+    {"name":"obj_oEnter","order":1,"path":"objects/obj_oEnter/obj_oEnter.yy",},
     {"name":"spr_wateringCan_dimond_right","order":3,"path":"sprites/spr_wateringCan_dimond_right/spr_wateringCan_dimond_right.yy",},
     {"name":"obj_bottomStatue2","order":4,"path":"objects/obj_bottomStatue2/obj_bottomStatue2.yy",},
     {"name":"UI_WateringCan_Dimond","order":20,"path":"sprites/UI_WateringCan_Dimond/UI_WateringCan_Dimond.yy",},
