@@ -250,6 +250,7 @@
     {"name":"obj_shovel1","order":1,"path":"objects/obj_shovel1/obj_shovel1.yy",},
     {"name":"UI_Peak_Gold","order":9,"path":"sprites/UI_Peak_Gold/UI_Peak_Gold.yy",},
     {"name":"obj_bottomStatue1","order":3,"path":"objects/obj_bottomStatue1/obj_bottomStatue1.yy",},
+    {"name":"Sprite167","order":21,"path":"sprites/Sprite167/Sprite167.yy",},
     {"name":"obj_tool_holder","order":5,"path":"objects/obj_tool_holder/obj_tool_holder.yy",},
     {"name":"spr_sword","order":1,"path":"sprites/spr_sword/spr_sword.yy",},
     {"name":"obj_tierra","order":1,"path":"objects/obj_tierra/obj_tierra.yy",},

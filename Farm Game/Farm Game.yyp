@@ -320,6 +320,7 @@
     {"id":{"name":"UI_Peak_Gold","path":"sprites/UI_Peak_Gold/UI_Peak_Gold.yy",},},
     {"id":{"name":"spr_wateringCan_dimond_back","path":"sprites/spr_wateringCan_dimond_back/spr_wateringCan_dimond_back.yy",},},
     {"id":{"name":"obj_bottomStatue1","path":"objects/obj_bottomStatue1/obj_bottomStatue1.yy",},},
+    {"id":{"name":"Sprite167","path":"sprites/Sprite167/Sprite167.yy",},},
     {"id":{"name":"obj_tool_holder","path":"objects/obj_tool_holder/obj_tool_holder.yy",},},
     {"id":{"name":"spr_sword","path":"sprites/spr_sword/spr_sword.yy",},},
     {"id":{"name":"obj_lettuce_sell","path":"objects/obj_lettuce_sell/obj_lettuce_sell.yy",},},
