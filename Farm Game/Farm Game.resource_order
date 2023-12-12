@@ -73,6 +73,8 @@
     {"name":"Sword","order":8,"path":"folders/Tury/Sprites/Tools/Sword.yy",},
     {"name":"WateringCan","order":5,"path":"folders/Tury/Sprites/Tools/WateringCan.yy",},
     {"name":"tileset","order":3,"path":"folders/Tury/tileset.yy",},
+    {"name":"Colison","order":2,"path":"folders/Tury/Objetos/Colison.yy",},
+    {"name":"Colisiones","order":3,"path":"folders/Tury/Sprites/Colisiones.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_lechugaRoja3","order":2,"path":"sprites/spr_lechugaRoja3/spr_lechugaRoja3.yy",},
