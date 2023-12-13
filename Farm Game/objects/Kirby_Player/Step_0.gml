@@ -84,6 +84,7 @@ if (attack_animation) {
 		// Crear hitbox
         var inst_hitbox = instance_create_layer(x, y - 16, "Instances_jugador", obj_hitbox);
         inst_hitbox.direction = direction;
+		obj_hitbox.alarm[0] = 1;
 		
     } 
 	else if (direction >= 135 && direction < 225) 
@@ -92,6 +93,7 @@ if (attack_animation) {
 		// Crear hitbox
         var inst_hitbox = instance_create_layer(x - 16, y, "Instances_jugador", obj_hitbox);
         inst_hitbox.direction = direction;
+		obj_hitbox.alarm[0] = 1;
     } 
 	else if (direction >= 225 && direction < 315) 
 	{
@@ -99,6 +101,7 @@ if (attack_animation) {
 		// Crear hitbox
         var inst_hitbox = instance_create_layer(x, y + 16, "Instances_jugador", obj_hitbox);
         inst_hitbox.direction = direction;
+		obj_hitbox.alarm[0] = 1;
     } 
 	else 
 	{
@@ -106,6 +109,7 @@ if (attack_animation) {
 		// Crear hitbox
         var inst_hitbox = instance_create_layer(x + 16, y, "Instances_jugador", obj_hitbox);
         inst_hitbox.direction = direction;
+		obj_hitbox.alarm[0] = 1;
     }
 	
 	// Establecer la variable de ataque en el hitbox
@@ -117,7 +121,7 @@ if (attack_animation) {
 // Restablecer la variable de ataque cuando se complete la animación de ataque
 if (attack_animation && image_index == image_number - 7) {
     attack_animation = false;
-    sprite_index = spr_idle_right; // Reemplaza con el nombre de tu sprite idle
+    sprite_index = spr_idle_right; 
 }
 /*-------------------------------------------------------------------------------------------------*/
 

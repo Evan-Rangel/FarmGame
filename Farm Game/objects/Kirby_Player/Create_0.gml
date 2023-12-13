@@ -25,3 +25,4 @@ watercan = false;
 
 // Inicializa la variable de estado de la animación de ataque
 attack_animation = false;
+
