@@ -9,3 +9,4 @@ if (other.object_index == obj_enemigo) {
     alarm[0] = 1;
 }
 
+
