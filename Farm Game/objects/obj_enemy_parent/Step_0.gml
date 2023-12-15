@@ -5,10 +5,13 @@
 
 //distance_to_player = distance_to_object(Kirby_Player);
 
-if (distance_to_player<100)
+if (distance_to_player<100 && enemy_can_see_player() && can_move)
 {
-//show_debug_message(game_get_speed(0.001));
-
+	x+=x_dir*move_speed*game_get_speed(gamespeed_fps);
+	y+=y_dir*move_speed*game_get_speed(gamespeed_fps);
 }
-x+=x_dir*anim*game_get_speed(0.1);
-y+=y_dir*move_speed*game_get_speed(0.1);
+if(is_hit)
+{
+	x+=x_dir*speed_hit*game_get_speed(gamespeed_fps);
+	y+=y_dir*speed_hit*game_get_speed(gamespeed_fps);
+}

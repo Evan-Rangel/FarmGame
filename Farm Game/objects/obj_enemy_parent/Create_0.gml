@@ -8,6 +8,8 @@ distance_to_player=0;
 //curve_speed= animcurve_get_channel(EnemyVel01,"curve1");
 x_dir=0;
 y_dir=0;
+coll=false;
+is_hit=false;
+speed_hit=0.1;
 alarm_time=1;
-
-alarm[0]=alarm_time*game_get_speed(.5);
+can_move=false;

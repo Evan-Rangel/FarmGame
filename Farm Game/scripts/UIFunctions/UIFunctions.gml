@@ -138,13 +138,16 @@ function resource_cancel_move_position()
 }
 function resource_start_move_position(_resource, _count)
 {
+	if(global.can_show_inventory)
+	{
 	resource_hide_info();
-	global.resource=_resource;
-	_resource.in_movement=true;
-	resource_count-=_count;
-	global.holder_t=self.id;
+	global.resource = _resource;
+	_resource.in_movement = true;
+	resource_count -= _count;
+	global.holder_t = self.id;
 	global.resource_count+=_count;
 	global.resource_can_move=true;
+	}
 }
 function resource_stop_move_position()
 {
