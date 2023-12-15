@@ -18,7 +18,7 @@ dia_noche = function()
 		draw_clear_alpha(#070920, 0);
 		
 		draw_set_color(#070920);
-		draw_set_alpha(min(momento,0.95));
+		draw_set_alpha(min(momento,0.90));
 		draw_rectangle(0, 0, room_width, room_height, false);
 		
 		
