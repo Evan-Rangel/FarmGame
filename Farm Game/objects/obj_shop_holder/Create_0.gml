@@ -3,7 +3,6 @@
 
 
 can_show=true;
-global.gold=1000;
-
+depth=-1;
 
 

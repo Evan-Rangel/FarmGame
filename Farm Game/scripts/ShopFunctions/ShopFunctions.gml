@@ -30,16 +30,11 @@ function delete_from_store()
 
 function shop_next_page(_direction)
 {
-
 	page_idx+=_direction;
 	if(page_idx>=0 && page_idx<pages)
 	{
-
 		for(i=0;i<array_length(holders);i++)
 		{
-			show_debug_message("dasdas");
-
-
 			if(page_idx==holders[i].page)
 			{
 				instance_activate_object(holders[i]);

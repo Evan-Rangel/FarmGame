@@ -1,17 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-
 if( resource_obj!=noone)
 {
-	if(global.gold>=resource_obj.price )
+	if(global.gold>=resource_price )
 	{
-		var _t_resource=instance_create_layer(x,y, "Instances", resource_obj.object_index);
+		var _t_resource=instance_create_layer(x,y, "Instances", resource_obj);
 		if(add_to_inventory(_t_resource,1))
 		{
 			resource_count--;
-			global.gold -= resource_obj.price;
+			global.gold -= resource_price;
 		}
 		else
 		{

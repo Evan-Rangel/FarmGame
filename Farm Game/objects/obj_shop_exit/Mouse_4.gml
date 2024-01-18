@@ -1,3 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
-if can_show draw_self();
+
+
+with(obj_shop_manager)
+{
+	event_user(1);
+}
+
+
+
+
+
