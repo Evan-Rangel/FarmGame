@@ -6,6 +6,16 @@ holders=[];
 x_offset=0;
 y_offset=40;
 t_y=0;
+page_idx=0;
+_vx = camera_get_view_width(view_camera[0]);
+_vy = camera_get_view_height(view_camera[0]);
+display_set_gui_size(_vx, _vy);
+for(i=0;i<total_objects;i++)
+{
+	holders[i]=	instance_find(obj_shop_holder,i);
+
+}
+/*
 for(i=0;i<5;i++)
 {
 	t_y+=y_offset;
@@ -29,4 +39,4 @@ for(var _i=index*5; _i<(index+1)*5;_i++)
 		}
 		_index++;
 	}
-}
+}*/

@@ -3,20 +3,25 @@
 
 
 
-if( resource_obj>0)
+if( resource_obj!=noone)
 {
-	if(global.gold>=resource_obj.price)
+	if(global.gold>=resource_obj.price )
 	{
-		resource_count--;
-		global.gold -= resource_obj.price;
 		var _t_resource=instance_create_layer(x,y, "Instances", resource_obj.object_index);
-		add_to_inventory(_t_resource,1);
-		
+		if(add_to_inventory(_t_resource,1))
+		{
+			resource_count--;
+			global.gold -= resource_obj.price;
+		}
+		else
+		{
+			instance_destroy(_t_resource);
+		}
 		if(resource_count<1)
 		{
+			image_alpha=0.5;
 			global.resource_obj_store= resource_obj;
 			resource_obj=noone;
-			delete_from_store();
 		}
 	}
 }
