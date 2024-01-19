@@ -14,21 +14,4 @@ if(position_meeting(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0),id))
 	{
 		event_user(2);
 	}
-	//if(ev_mouse_enter)
-	{
-		//if(resource_obj!=noone)
-		{
-		//	is_mouse=true;
-		//	alarm[0]=fps*0.5;
-		}
-
-	}
-	//if(ev_mouse_leave)
-	{
-		//is_mouse=false;
-		//if(resource_obj!=noone)
-		{
-		//	resource_hide_info();
-		}
-	}
 }

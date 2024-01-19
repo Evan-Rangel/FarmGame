@@ -6,6 +6,7 @@ vertical = 0;
 
 //tilemap_get_at_pixel(tiles, x, y);
 
+show_debug_message(fps_real);
 if (keyboard_check(ord("D")))
 {
     horizontal += 1;
@@ -36,7 +37,7 @@ if (horizontal != 0 || vertical != 0)
     direction = point_direction(0, 0, horizontal, vertical);
     speed = v;
     image_speed = 1;
-	
+
 	// Asignar sprite según la dirección
 	switch(direction)
 	{
@@ -122,47 +123,6 @@ if (attack_animation) {
 if (attack_animation && image_index == image_number - 7) {
     attack_animation = false;
     sprite_index = spr_idle_right; 
-}
-/*-------------------------------------------------------------------------------------------------*/
-
-if keyboard_check_pressed(ord("E")) 
-{
-    // Crea un objeto semilla al lado del personaje
-    var inst_semilla = instance_create_layer(x - 15, y - 40, "Instances_jugador", obj_seed_lechuga);
-    
-    // Asigna el sprite a seguir al personaje
-    inst_semilla.sprite_to_follow = spr_seed_lechuga;
-    inst_semilla.following = true; // Hace que el sprite siga al personaje
-}
-
-if keyboard_check_pressed(ord("R")) 
-{
-    // Crea un objeto semilla al lado del personaje
-    var inst_semilla = instance_create_layer(x - 15, y - 40, "Instances_jugador", obj_seed_lechugaRoja);
-    
-    // Asigna el sprite a seguir al personaje
-    inst_semilla.sprite_to_follow = spr_seed_lechugaRoja;
-    inst_semilla.following = true; // Hace que el sprite siga al personaje
-}
-
-if keyboard_check_pressed(ord("T")) 
-{
-    // Crea un objeto semilla al lado del personaje
-    var inst_semilla = instance_create_layer(x - 15, y - 40, "Instances_jugador", obj_seed_lechugaAmarilla);
-    
-    // Asigna el sprite a seguir al personaje
-    inst_semilla.sprite_to_follow = spr_seed_lechugaAmarilla;
-    inst_semilla.following = true; // Hace que el sprite siga al personaje
-}
-
-if keyboard_check_pressed(ord("Y")) 
-{
-    // Crea un objeto semilla al lado del personaje
-    var inst_semilla = instance_create_layer(x - 15, y - 40, "Instances_jugador", obj_seed_lechugaNaranja);
-    
-    // Asigna el sprite a seguir al personaje
-    inst_semilla.sprite_to_follow = spr_seed_lechugaNaranja;
-    inst_semilla.following = true; // Hace que el sprite siga al personaje
 }
 /*-------------------------------------------------------------------------------------------------*/
 
