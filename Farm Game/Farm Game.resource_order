@@ -332,5 +332,6 @@
     {"name":"obj_switch3_1","order":5,"path":"objects/obj_switch3_1/obj_switch3_1.yy",},
     {"name":"spr_watering_front","order":1,"path":"sprites/spr_watering_front/spr_watering_front.yy",},
     {"name":"spr_topStatue","order":14,"path":"sprites/spr_topStatue/spr_topStatue.yy",},
+    {"name":"DungeonTutorial","order":15,"path":"rooms/DungeonTutorial/DungeonTutorial.yy",},
   ],
 }
