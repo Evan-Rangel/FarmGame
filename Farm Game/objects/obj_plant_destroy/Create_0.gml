@@ -1,6 +1,6 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 
-// Inicializar la vida del enemigo
 
-health = 100
+image_speed = 1.0;
+

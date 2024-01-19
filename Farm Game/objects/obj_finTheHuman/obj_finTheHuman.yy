@@ -1,16 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_hitbox",
+  "name": "obj_finTheHuman",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","eventNum":0,"eventType":4,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Tury/Objetos.yy",
+    "name": "FintheHuman",
+    "path": "folders/Tury/Objetos/FintheHuman.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,9 +28,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite84",
-    "path": "sprites/Sprite84/Sprite84.yy",
+    "name": "FinTheHuman",
+    "path": "sprites/FinTheHuman/FinTheHuman.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

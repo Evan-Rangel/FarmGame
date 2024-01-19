@@ -3,7 +3,7 @@
 
 
 
-if (other.object_index == obj_enemigo) {
+if (other.object_index == obj_roca) {
     // Colisionó con el objeto de enemigo
     other.hp -= hitbox_damage;
     alarm[0] = 1;
