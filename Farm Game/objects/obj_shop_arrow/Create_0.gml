@@ -3,7 +3,7 @@
 
 
 sprite_index=sprite;
-depth=-1;
+depth=-10;
 
 
 

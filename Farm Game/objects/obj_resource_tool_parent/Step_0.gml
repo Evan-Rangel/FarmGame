@@ -13,18 +13,18 @@ event_inherited();
 if (instance_exists(Kirby_Player) && on_select)
 {
 	
-	if (Kirby_Player.sprite_index = Kirby_Walk_Right)
+	if (Kirby_Player.walk_right = true)
 	{
-		x = Kirby_Player.x + 23;
+		x = Kirby_Player.x + 14;
 		sprite_index = right_spr;
 	}
 	
 	else
 	{
-		x = Kirby_Player.x - 23;
+		x = Kirby_Player.x - 14;
 		sprite_index = left_spr;
 	}
 	
-	y = Kirby_Player.y - 10;
+	y = Kirby_Player.y;
 }
 

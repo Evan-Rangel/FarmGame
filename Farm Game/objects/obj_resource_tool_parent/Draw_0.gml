@@ -9,9 +9,3 @@
 
 // Inherit the parent event
 event_inherited();
-/*
-if(on_select)
-{
-	draw_self();
-}
-*/

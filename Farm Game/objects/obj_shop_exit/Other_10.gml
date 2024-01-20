@@ -2,7 +2,13 @@
 // You can write your code in this editor
 
 
-image_alpha=0.5;
+
+with(obj_shop_manager)
+{
+	event_user(1);
+}
+
+
 
 
 

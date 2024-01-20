@@ -1,11 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-show_debug_message(fps_real);
-
-
-
-
-
+if(is_hole)
+{
+	sprite_index=hoyo_select_spr;
+}
 
 

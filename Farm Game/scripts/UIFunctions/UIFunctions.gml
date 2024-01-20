@@ -46,8 +46,8 @@ holder_t=noone;
 max_capacity=64;
 resource_info_holder=noone;
 
-holder_pos_inv=0;
-holder_pos_toolbar=0;
+holder_pos_inv=398;
+holder_pos_toolbar=715.4568;
 
 
 //VARIABLES PARA TIENDA
@@ -140,7 +140,7 @@ function resource_start_move_position(_resource, _count)
 {
 	if(global.can_show_inventory)
 	{
-	resource_hide_info();
+	//resource_hide_info();
 	global.resource = _resource;
 	_resource.in_movement = true;
 	resource_count -= _count;
@@ -362,6 +362,7 @@ for( _i=0; _i<global.inv_ylenght;_i++)
 
 function add_to_inventory(_resource_obj, _resource_count)
 {
+	show_debug_message(_resource_count);
 	_idx=0;
 	for( _i=0; _i<global.inv_ylenght;_i++)
 	{

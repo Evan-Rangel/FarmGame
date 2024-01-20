@@ -2,10 +2,12 @@
 // You can write your code in this editor
 
 
-with(obj_shop_manager)
+
+if(is_hole)
 {
-	event_user(1);
+	sprite_index=hoyo_spr;
 }
+
 
 
 

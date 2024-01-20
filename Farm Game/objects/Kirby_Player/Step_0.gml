@@ -6,15 +6,20 @@ vertical = 0;
 
 //tilemap_get_at_pixel(tiles, x, y);
 
-show_debug_message(fps_real);
+
 if (keyboard_check(ord("D")))
 {
     horizontal += 1;
+	walk_right = true;
+
 }
 
 else if (keyboard_check(ord("A")))
 {
     horizontal -= 1;
+	
+	walk_right = false;
+
 }
 
 else if (keyboard_check(ord("W")))

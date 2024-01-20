@@ -3,7 +3,7 @@
 m_health=10;
 c_health=m_health;
 is_hit=false;
-
+walk_right = false;
 
 sprite_index = Kirby_Walk_Right;
 image_speed = 0;
