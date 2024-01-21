@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_hoyo_humedo",
+  "name": "spr_hoyo_humedo_select",
   "bbox_bottom": 31,
   "bbox_left": 0,
   "bbox_right": 31,
@@ -20,6 +20,7 @@
   "height": 32,
   "HTile": false,
   "layers": [
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b0d8aa02-6180-4597-aa64-77beec1236eb","blendMode":0,"displayName":"Layer 2","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a29e5e53-9e1b-4e9a-beb0-cf1676cdefe6","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":50.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"13740ece-4146-4c41-9b0d-b57e33e66848","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
@@ -33,7 +34,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_hoyo_humedo",
+    "name": "spr_hoyo_humedo_select",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -55,7 +56,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4d2f5cb0-0cfd-46da-b890-aac0f3e161ca","path":"sprites/spr_hoyo_humedo/spr_hoyo_humedo.yy",},},},"Disabled":false,"id":"5258aad0-c2cd-437c-8ef1-e4a6d293eb29","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4d2f5cb0-0cfd-46da-b890-aac0f3e161ca","path":"sprites/spr_hoyo_humedo_select/spr_hoyo_humedo_select.yy",},},},"Disabled":false,"id":"d97ae5cf-43e9-4a45-b1fe-e32ab1af9968","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

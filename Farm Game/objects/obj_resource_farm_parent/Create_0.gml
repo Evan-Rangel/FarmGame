@@ -15,3 +15,4 @@ image_index=1;
 current_image=0;
 
 level_water=0;
+hoyo=noone;

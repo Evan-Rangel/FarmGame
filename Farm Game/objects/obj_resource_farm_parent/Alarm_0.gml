@@ -1,7 +1,7 @@
 /// @description Evento de crecer
 
 
-if(image_index+1<image_number)
+if(image_index<image_number)
 {
 	if(level_water>MinLevelWater)
 	{
@@ -13,7 +13,12 @@ if(image_index+1<image_number)
 	}
 	else
 	{
+		alarm[2]=300;
 		alarm[0]=time_to_grow;
+		with(hoyo)
+		{
+			has_water=false;
+		}
 	}
 }
 

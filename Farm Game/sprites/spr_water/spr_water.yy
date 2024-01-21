@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_hoyo_humedo",
+  "name": "spr_water",
   "bbox_bottom": 31,
   "bbox_left": 0,
   "bbox_right": 31,
@@ -13,15 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4d2f5cb0-0cfd-46da-b890-aac0f3e161ca",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ca958900-f348-4fce-9798-ae3ed836f9ea",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a29e5e53-9e1b-4e9a-beb0-cf1676cdefe6","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":50.0,"visible":true,},
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"13740ece-4146-4c41-9b0d-b57e33e66848","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cc49cd2e-9f30-4141-8d57-6a8f1cd41539","blendMode":0,"displayName":"default","isLocked":false,"opacity":37.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -33,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_hoyo_humedo",
+    "name": "spr_water",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -55,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4d2f5cb0-0cfd-46da-b890-aac0f3e161ca","path":"sprites/spr_hoyo_humedo/spr_hoyo_humedo.yy",},},},"Disabled":false,"id":"5258aad0-c2cd-437c-8ef1-e4a6d293eb29","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ca958900-f348-4fce-9798-ae3ed836f9ea","path":"sprites/spr_water/spr_water.yy",},},},"Disabled":false,"id":"6ac1f5cb-f295-471d-aff6-e018ac8c7754","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

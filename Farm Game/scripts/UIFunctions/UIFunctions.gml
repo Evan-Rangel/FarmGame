@@ -75,7 +75,7 @@ function obj_interact_resource_event()
 		}
 	}
 }
-function delete_to_inventory()
+function delete_to_inventory(_hoyo)
 {
 	
 	sprite_index=planted_sprites;
@@ -85,7 +85,7 @@ function delete_to_inventory()
 	image_speed=0;
 	image_index=0;
 	estado= PLANT_STATE.PLANTADO;	
-	
+	hoyo=_hoyo;
 	alarm[0]=time_to_grow;
 	alarm[1]=time_to_grow/3;
 	

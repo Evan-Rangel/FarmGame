@@ -5,7 +5,10 @@
 
 if(point_distance(x,y, Kirby_Player.x,Kirby_Player.y)<30 && estado== PLANT_STATE.COSECHABLE)
 {
+	with(hoyo)
+	{
+		has_water=false;
+	}
 	estado=PLANT_STATE.IN_UI;
 	add_to_inventory(self, 1);
 }
-

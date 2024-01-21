@@ -1,22 +1,17 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-
-if(is_hole)
+/*
+if(is_hole && cultivo!=noone)
 {
-	if(has_water)
+	if( cultivo.MinLevelWater<=cultivo.level_water)
 	{
 		sprite_index=spr_hoyo_humedo;
 	}
 	else
 	{
-		sprite_index=hoyo_spr;
+		sprite_index=spr_hoyo;
 	}
 }
 
-
-
-
-
-
+*/

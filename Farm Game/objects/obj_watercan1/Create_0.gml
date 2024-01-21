@@ -2,9 +2,15 @@
 // You can write your code in this editor
 
 
-is_hole=false;
-has_water=false;
 
 
 
 
+
+
+
+// Inherit the parent event
+event_inherited();
+
+has_water=true;
+current_water_uses=20;
