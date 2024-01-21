@@ -161,6 +161,7 @@
     {"name":"spr_lechugaNaranja3","order":2,"path":"sprites/spr_lechugaNaranja3/spr_lechugaNaranja3.yy",},
     {"name":"spr_cutDown_mine_right","order":3,"path":"sprites/spr_cutDown_mine_right/spr_cutDown_mine_right.yy",},
     {"name":"obj_switch2_2","order":3,"path":"objects/obj_switch2_2/obj_switch2_2.yy",},
+    {"name":"DungeonTutorial","order":18,"path":"rooms/DungeonTutorial/DungeonTutorial.yy",},
     {"name":"obj_button_exit","order":3,"path":"objects/obj_button_exit/obj_button_exit.yy",},
     {"name":"obj_resource_parent","order":1,"path":"objects/obj_resource_parent/obj_resource_parent.yy",},
     {"name":"obj_lechugaRoja","order":3,"path":"objects/obj_lechugaRoja/obj_lechugaRoja.yy",},
@@ -341,6 +342,5 @@
     {"name":"obj_switch3_1","order":5,"path":"objects/obj_switch3_1/obj_switch3_1.yy",},
     {"name":"spr_watering_front","order":1,"path":"sprites/spr_watering_front/spr_watering_front.yy",},
     {"name":"spr_topStatue","order":14,"path":"sprites/spr_topStatue/spr_topStatue.yy",},
-    {"name":"DungeonTutorial","order":15,"path":"rooms/DungeonTutorial/DungeonTutorial.yy",},
   ],
 }

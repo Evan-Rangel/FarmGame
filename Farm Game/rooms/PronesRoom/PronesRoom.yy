@@ -7,7 +7,6 @@
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_449F8BFD","path":"rooms/PronesRoom/PronesRoom.yy",},
     {"name":"inst_EDB99A8","path":"rooms/PronesRoom/PronesRoom.yy",},
     {"name":"inst_6F16913F","path":"rooms/PronesRoom/PronesRoom.yy",},
     {"name":"inst_6BBFE33C","path":"rooms/PronesRoom/PronesRoom.yy",},
@@ -31,7 +30,6 @@
 -2147483648,-2147483648,-3,0,-10,-2147483648,-2,0,-14,-2147483648,8,0,1056,0,-2147483648,0,1057,
 1054,1055,-10,-2147483648,1,1106,-3,0,3,1107,1104,1105,-90,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"TileSet4","path":"tilesets/TileSet4/TileSet4.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_449F8BFD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Kirby_Player","path":"objects/Kirby_Player/Kirby_Player.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":128.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_EDB99A8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_collisionBox","path":"objects/obj_collisionBox/obj_collisionBox.yy",},"properties":[],"rotation":0.0,"scaleX":2.9,"scaleY":0.2,"x":114.0,"y":167.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6F16913F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_collisionBox","path":"objects/obj_collisionBox/obj_collisionBox.yy",},"properties":[],"rotation":0.0,"scaleX":0.4,"scaleY":4.0,"x":200.0,"y":32.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6BBFE33C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_collisionBox","path":"objects/obj_collisionBox/obj_collisionBox.yy",},"properties":[],"rotation":0.0,"scaleX":4.5,"scaleY":1.0,"x":64.0,"y":16.0,},

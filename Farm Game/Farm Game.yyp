@@ -198,6 +198,7 @@
     {"id":{"name":"spr_axe","path":"sprites/spr_axe/spr_axe.yy",},},
     {"id":{"name":"spr_cutDown_mine_right","path":"sprites/spr_cutDown_mine_right/spr_cutDown_mine_right.yy",},},
     {"id":{"name":"obj_switch2_2","path":"objects/obj_switch2_2/obj_switch2_2.yy",},},
+    {"id":{"name":"DungeonTutorial","path":"rooms/DungeonTutorial/DungeonTutorial.yy",},},
     {"id":{"name":"spr_walk_back","path":"sprites/spr_walk_back/spr_walk_back.yy",},},
     {"id":{"name":"obj_button_exit","path":"objects/obj_button_exit/obj_button_exit.yy",},},
     {"id":{"name":"obj_resource_parent","path":"objects/obj_resource_parent/obj_resource_parent.yy",},},
@@ -430,7 +431,6 @@
     {"id":{"name":"obj_switch3_1","path":"objects/obj_switch3_1/obj_switch3_1.yy",},},
     {"id":{"name":"spr_watering_front","path":"sprites/spr_watering_front/spr_watering_front.yy",},},
     {"id":{"name":"spr_topStatue","path":"sprites/spr_topStatue/spr_topStatue.yy",},},
-    {"id":{"name":"DungeonTutorial","path":"rooms/DungeonTutorial/DungeonTutorial.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
@@ -440,7 +440,6 @@
     {"roomId":{"name":"Village","path":"rooms/Village/Village.yy",},},
     {"roomId":{"name":"Dungeon2","path":"rooms/Dungeon2/Dungeon2.yy",},},
     {"roomId":{"name":"Playground","path":"rooms/Playground/Playground.yy",},},
-    {"roomId":{"name":"DungeonTutorial","path":"rooms/DungeonTutorial/DungeonTutorial.yy",},},
     {"roomId":{"name":"PronesRoom","path":"rooms/PronesRoom/PronesRoom.yy",},},
     {"roomId":{"name":"NpcRoom2","path":"rooms/NpcRoom2/NpcRoom2.yy",},},
     {"roomId":{"name":"NpcRoom1","path":"rooms/NpcRoom1/NpcRoom1.yy",},},
@@ -449,6 +448,7 @@
     {"roomId":{"name":"MainMenuRoom","path":"rooms/MainMenuRoom/MainMenuRoom.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Test","path":"rooms/Test/Test.yy",},},
+    {"roomId":{"name":"DungeonTutorial","path":"rooms/DungeonTutorial/DungeonTutorial.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

@@ -5,6 +5,8 @@ c_health=m_health;
 is_hit=false;
 walk_right = false;
 
+tutorialDone = false;
+
 sprite_index = Kirby_Walk_Right;
 image_speed = 0;
 image_index = 0;
