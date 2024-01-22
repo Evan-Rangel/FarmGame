@@ -11,13 +11,11 @@ if(_plant!=noone && has_water)
 	{
 		level_water=10;
 		alarm[2]=-1;
-		show_debug_message(hoyo);
 
 		with(hoyo)
 		{
 			sprite_index=spr_hoyo_humedo;
 			has_water=true;
-			show_debug_message("hoyo");
 
 		}
 	}

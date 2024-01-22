@@ -189,10 +189,11 @@ function scr_option(_option, _link_id) //Esta funcion sera la encargada de propo
 
 
 /// @param text_id
-function create_textbox(_text_id) //Esta funcion facilita el crear las textboxs
+function create_textbox(_text_id, _npc) //Esta funcion facilita el crear las textboxs
 {
 	with (instance_create_depth(0, 0, -9999, obj_textbox)) //Si se da click al objeto se creara una instancia del obj_textbox, y gracias al "with" le puedo agregar a mi script que me permite poner el texto adecuado.
 	{
+		npc=_npc;
 		scr_game_text(_text_id); //A la funcion qu ecree le paso el id y el nombre del objeto clickeado.
 	}	
 }

@@ -362,7 +362,6 @@ for( _i=0; _i<global.inv_ylenght;_i++)
 
 function add_to_inventory(_resource_obj, _resource_count)
 {
-	show_debug_message(_resource_count);
 	_idx=0;
 	for( _i=0; _i<global.inv_ylenght;_i++)
 	{

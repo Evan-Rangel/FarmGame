@@ -153,8 +153,17 @@ if (accept_key) //Si se preciona espacio cambiara de pagina de texto, si el text
 			//Link text for options
 			if (option_number > 0)
 			{
-				create_textbox(option_link_id[option_pos]);
+				create_textbox(option_link_id[option_pos], npc);
 			}
+			if(npc.npc_shop)
+			{
+				with(obj_shop_manager)
+				{
+					event_user(0);
+				}
+			}
+			npc.can_move=true;
+			Kirby_Player.can_walk=true;
 			instance_destroy();
 		}
 	}	

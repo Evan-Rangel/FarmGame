@@ -6,7 +6,6 @@ vertical = 0;
 
 //tilemap_get_at_pixel(tiles, x, y);
 
-
 if (keyboard_check(ord("D")))
 {
     horizontal += 1;
@@ -35,7 +34,7 @@ else if (keyboard_check(ord("S")))
 
 // Verificar dirección y velocidad
 
-if (horizontal != 0 || vertical != 0)
+if ((horizontal != 0 || vertical != 0) && can_walk)
 {
 	// Si el jugador se está moviendo
 	
@@ -136,4 +135,3 @@ if(mouse_check_button_pressed(1))
 obj_interact_resource_event();
 }
 
-//show_debug_message(point_distance(mouse_x,mouse_y, x, y));

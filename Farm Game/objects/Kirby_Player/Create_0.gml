@@ -4,7 +4,7 @@ m_health=10;
 c_health=m_health;
 is_hit=false;
 walk_right = false;
-
+can_walk=true;
 tutorialDone = false;
 
 sprite_index = Kirby_Walk_Right;

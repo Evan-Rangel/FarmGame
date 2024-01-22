@@ -15,12 +15,18 @@ function scr_game_text(_text_id) //Esta funcion tomara el nombre id del objeto p
 			scr_text("Quieres ayuda?");	
 				scr_option("Si pofavoo", "Evan - si");
 				scr_option("No sho puedo boludo", "Evan - no");
+				//Kirby_Player.can_walk=true;
+
 		break;
 			case "Evan - si":
 				scr_text("ven deja te explico joto");
+				//Kirby_Player.can_walk=true;
+
 			break;
 			case "Evan - no":
 				scr_text("va, pero arregla tu mamada");	
+				//Kirby_Player.can_walk=true;
+
 			break;
 		//----------//
 		
@@ -33,6 +39,8 @@ function scr_game_text(_text_id) //Esta funcion tomara el nombre id del objeto p
 			scr_text("No estas escuchando nada humano, soy real, solo no tengo un cuerpo fisico.");
 			scr_text("Si eres dios largate de aqui cabron, me tienes hasta la verga con la suerte que me das.", "Gefeyafa-Enojado");
 			scr_text("ok :(.");
+			//Kirby_Player.can_walk=true;
+
 		break;
 		//----------//
 		
@@ -51,6 +59,7 @@ function scr_game_text(_text_id) //Esta funcion tomara el nombre id del objeto p
 			scr_text("Pero si, si se donde esta la residencia Prones, esta despues del lago, sigueme.", "Campesina-Normal", -1);
 			scr_text("Que hueva, caminar mas, pero va, te sigo.", "ProneBodoque-Normal");
 			scr_text("(Sigues a la morra castrosa)");
+			//Kirby_Player.can_walk=true;
 		//----------//
 	}
 

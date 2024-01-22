@@ -56,6 +56,7 @@
     {"name":"inst_1C90983","path":"rooms/InitObjectsRoom/InitObjectsRoom.yy",},
     {"name":"inst_39669905","path":"rooms/InitObjectsRoom/InitObjectsRoom.yy",},
     {"name":"inst_72C7031","path":"rooms/InitObjectsRoom/InitObjectsRoom.yy",},
+    {"name":"inst_74F181B0","path":"rooms/InitObjectsRoom/InitObjectsRoom.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -70,6 +71,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_72C7031","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_load_persistant","path":"objects/obj_load_persistant/obj_load_persistant.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_load_persistant","path":"objects/obj_load_persistant/obj_load_persistant.yy",},"propertyId":{"name":"room_to_load","path":"objects/obj_load_persistant/obj_load_persistant.yy",},"value":"Village",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":160.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_74F181B0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_settings","path":"objects/obj_settings/obj_settings.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":128.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_10379990","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_toolbar","path":"objects/obj_toolbar/obj_toolbar.yy",},"properties":[],"rotation":0.0,"scaleX":16.63614,"scaleY":1.8510454,"x":700.1838,"y":716.3616,},

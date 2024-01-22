@@ -1,3 +1,5 @@
+npc=noone;
+
 //Default Settings//
 depth = -9999;
 accept_key = noone;//Esto Yo agrege por si falla//

@@ -28,6 +28,7 @@
   "physicsStartAwake": true,
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"room_to_load","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"Village","varType":5,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"dungeon_tutorial","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"DungeonTutorial","varType":5,},
   ],
   "solid": true,
   "spriteId": null,
