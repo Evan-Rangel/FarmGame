@@ -23,7 +23,8 @@
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"itemschicos","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":15,"SerialiseWidth":17,"TileCompressedData":[
--146,-2147483648,2,1210,1160,-107,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"TileSet4","path":"tilesets/TileSet4/TileSet4.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+-73,-2147483648,2,1070,1071,-15,-2147483648,2,1120,1121,-15,-2147483648,2,1170,1171,-15,-2147483648,
+2,1220,1221,-20,-2147483648,2,1210,1160,-107,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"TileSet4","path":"tilesets/TileSet4/TileSet4.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Items","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":15,"SerialiseWidth":17,"TileCompressedData":[
 -73,-2147483648,7,1068,1069,-2147483648,1158,1159,1157,1161,-10,-2147483648,3,1118,1119,-2147483648,-4,
 0,-10,-2147483648,2,1168,1169,-15,-2147483648,-2,0,-19,-2147483648,3,1060,1054,1055,-14,
@@ -42,8 +43,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4872508E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_collisionBox","path":"objects/obj_collisionBox/obj_collisionBox.yy",},"properties":[],"rotation":0.0,"scaleX":1.5,"scaleY":1.0,"x":144.0,"y":144.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_79E29237","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_oDoor","path":"objects/obj_oDoor/obj_oDoor.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_oDoor","path":"objects/obj_oDoor/obj_oDoor.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_oDoor/obj_oDoor.yy",},"value":"Village",},
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_oDoor","path":"objects/obj_oDoor/obj_oDoor.yy",},"propertyId":{"name":"targetX","path":"objects/obj_oDoor/obj_oDoor.yy",},"value":"1450",},
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_oDoor","path":"objects/obj_oDoor/obj_oDoor.yy",},"propertyId":{"name":"targetY","path":"objects/obj_oDoor/obj_oDoor.yy",},"value":"825",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_oDoor","path":"objects/obj_oDoor/obj_oDoor.yy",},"propertyId":{"name":"targetX","path":"objects/obj_oDoor/obj_oDoor.yy",},"value":"1880",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_oDoor","path":"objects/obj_oDoor/obj_oDoor.yy",},"propertyId":{"name":"targetY","path":"objects/obj_oDoor/obj_oDoor.yy",},"value":"820",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":176.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"itemsAbajo","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":15,"SerialiseWidth":17,"TileCompressedData":[

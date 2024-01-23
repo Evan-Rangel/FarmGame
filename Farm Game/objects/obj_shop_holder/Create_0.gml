@@ -5,4 +5,4 @@
 depth=-10;
 
 press=true;
-
+can_press=false;

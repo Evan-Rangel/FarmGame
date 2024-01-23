@@ -7,8 +7,8 @@ textbox_x = noone;//Esto Yo agrege por si falla//
 textbox_y = noone;//Esto Yo agrege por si falla//
 
 //Textbox Parameters//
-textbox_width = 200; //Anchura de la caja de texto.
-textbox_height = 64; //Altura de la caja de texto.
+textbox_width = 300; //Anchura de la caja de texto.
+textbox_height = 76; //Altura de la caja de texto.
 border = 8; //Borde de la caja del texto osea el espacio que habra para centrar el texto.
 line_sep = 12; //Es el espacio entre cada renglon de texto.
 line_width = textbox_width - border*2; //Con esto defino el maximo espacio que existira antes de romper el texto y ir al siguiente renglon.

@@ -7,9 +7,8 @@ if(image_index<image_number)
 	{
 		image_index++;
 		alarm[0]=time_to_grow;
-		estado	= PLANT_STATE.CRECIENDO;
-		if(image_index+1==image_number)	estado	= PLANT_STATE.COSECHABLE;
-		resource_sprite=sprite_index;
+		if(image_index+1==image_number)	{estado	= PLANT_STATE.COSECHABLE; alarm[0]=-1; }
+		else estado	= PLANT_STATE.CRECIENDO;
 	}
 	else
 	{
@@ -18,6 +17,7 @@ if(image_index<image_number)
 		with(hoyo)
 		{
 			has_water=false;
+			event_user(0);
 		}
 	}
 }

@@ -4,6 +4,11 @@ function scr_game_text(_text_id) //Esta funcion tomara el nombre id del objeto p
 	
 	switch(_text_id) //Este switch decidira cual texto mostrar dependiendo con que personaje se esta hablando.
 	{
+		case "Arturo":
+			scr_text("Bienvenido, Que vas a comprar?");
+			scr_text("Ya no barres?","ProneBodoque-Normal");
+
+		break;
 		//---Evan---// //---id: 1---//
 		case "Evan":
 			scr_text("Hola wee, soy Evan, solo queria recordarte que estas pendejo jijijijijij");
@@ -15,17 +20,14 @@ function scr_game_text(_text_id) //Esta funcion tomara el nombre id del objeto p
 			scr_text("Quieres ayuda?");	
 				scr_option("Si pofavoo", "Evan - si");
 				scr_option("No sho puedo boludo", "Evan - no");
-				//Kirby_Player.can_walk=true;
 
 		break;
 			case "Evan - si":
 				scr_text("ven deja te explico joto");
-				//Kirby_Player.can_walk=true;
 
 			break;
 			case "Evan - no":
 				scr_text("va, pero arregla tu mamada");	
-				//Kirby_Player.can_walk=true;
 
 			break;
 		//----------//

@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Tury/Objetos.yy",
+    "name": "FintheHuman",
+    "path": "folders/Tury/Objetos/FintheHuman.yy",
   },
   "parentObjectId": null,
   "persistent": false,

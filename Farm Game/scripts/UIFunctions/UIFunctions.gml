@@ -13,7 +13,8 @@ enum PLANT_STATE
 	IN_UI,
 	PLANTADO,
 	CRECIENDO,
-	COSECHABLE
+	COSECHABLE,
+	VENDER
 }
 
 function vector(_x,_y) constructor
@@ -90,6 +91,26 @@ function delete_to_inventory(_hoyo)
 	alarm[1]=time_to_grow/3;
 	
 	
+	with(global.toolbar)
+	{
+		with(holders[index])
+		{
+			resource_count--;
+			if(resource_count<=0)
+			{
+				with(resource_obj)
+				{instance_destroy();}
+				resource_type=RESOURCE_TYPE.EMPTY;
+				resource_name="";
+				resource_obj=noone;
+				resource_count=0;
+			}
+				
+		}
+	}
+}
+function delete_to_inventory_venta()
+{
 	with(global.toolbar)
 	{
 		with(holders[index])

@@ -4,6 +4,6 @@ if(level_water>0)
 {
 	level_water--;
 }
-alarm[1]=time_to_grow/3;
+alarm[1]=time_to_grow/(random(3)+1);
 
 

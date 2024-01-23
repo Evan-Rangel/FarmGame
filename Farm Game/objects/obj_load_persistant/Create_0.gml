@@ -3,8 +3,8 @@
 global.target_x=2076;
 global.target_y=1790;
 
-Kirby_Player.x=2408;
-Kirby_Player.y=218;
+Kirby_Player.x=1630;
+Kirby_Player.y=460;
 
 
 global.nextdungeon=dungeon_tutorial;

@@ -24,7 +24,7 @@
     {"name":"inst_7DF84670","path":"rooms/Taqueria/Taqueria.yy",},
     {"name":"inst_369F7006","path":"rooms/Taqueria/Taqueria.yy",},
     {"name":"inst_65911C6D","path":"rooms/Taqueria/Taqueria.yy",},
-    {"name":"inst_5ED158D2","path":"rooms/Taqueria/Taqueria.yy",},
+    {"name":"inst_69B6B924","path":"rooms/Taqueria/Taqueria.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -61,10 +61,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_oDoor","path":"objects/obj_oDoor/obj_oDoor.yy",},"propertyId":{"name":"targetX","path":"objects/obj_oDoor/obj_oDoor.yy",},"value":"1620",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_oDoor","path":"objects/obj_oDoor/obj_oDoor.yy",},"propertyId":{"name":"targetY","path":"objects/obj_oDoor/obj_oDoor.yy",},"value":"430",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":144.0,"y":192.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5ED158D2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_npc01","path":"objects/obj_npc01/obj_npc01.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"npc_name","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"value":"Campesina",},
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"npc_shop","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"value":"True",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":80.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_69B6B924","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_finTheHuman","path":"objects/obj_finTheHuman/obj_finTheHuman.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":79.0,"y":107.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"itemsabajo","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":15,"SerialiseWidth":20,"TileCompressedData":[
 -54,-2147483648,2,1683,1684,-6,-2147483648,14,1533,1534,1535,1536,1537,1292,1293,1294,1295,1296,1297,-2147483648,

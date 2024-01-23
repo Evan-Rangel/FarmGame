@@ -22,7 +22,8 @@
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"ItemsChicos","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":15,"SerialiseWidth":17,"TileCompressedData":[
--146,-2147483648,1,1065,-108,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"TileSet4","path":"tilesets/TileSet4/TileSet4.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+-73,-2147483648,2,1066,1067,-15,-2147483648,2,1116,1117,-15,-2147483648,2,1166,1167,-15,-2147483648,
+2,1216,1217,-20,-2147483648,1,1065,-108,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"TileSet4","path":"tilesets/TileSet4/TileSet4.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Items","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":15,"SerialiseWidth":17,"TileCompressedData":[
 -43,-2147483648,3,1078,1079,1080,-14,-2147483648,3,1128,1129,1130,-10,-2147483648,7,1070,1071,
 1052,1053,1178,1179,1180,-10,-2147483648,4,1120,1121,0,0,-13,-2147483648,2,1170,1171,
@@ -41,8 +42,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6FC066BD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_collisionBox","path":"objects/obj_collisionBox/obj_collisionBox.yy",},"properties":[],"rotation":0.0,"scaleX":0.5,"scaleY":0.4,"x":78.0,"y":144.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_369BBAB8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_oDoor","path":"objects/obj_oDoor/obj_oDoor.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_oDoor","path":"objects/obj_oDoor/obj_oDoor.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_oDoor/obj_oDoor.yy",},"value":"Village",},
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_oDoor","path":"objects/obj_oDoor/obj_oDoor.yy",},"propertyId":{"name":"targetX","path":"objects/obj_oDoor/obj_oDoor.yy",},"value":"1868",},
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_oDoor","path":"objects/obj_oDoor/obj_oDoor.yy",},"propertyId":{"name":"targetY","path":"objects/obj_oDoor/obj_oDoor.yy",},"value":"813",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_oDoor","path":"objects/obj_oDoor/obj_oDoor.yy",},"propertyId":{"name":"targetX","path":"objects/obj_oDoor/obj_oDoor.yy",},"value":"692",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_oDoor","path":"objects/obj_oDoor/obj_oDoor.yy",},"propertyId":{"name":"targetY","path":"objects/obj_oDoor/obj_oDoor.yy",},"value":"586",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":176.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"ItemsAbajo","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":15,"SerialiseWidth":17,"TileCompressedData":[

@@ -4,10 +4,15 @@
   "name": "obj_finTheHuman",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"npc_name","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"value":"Arturo",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"npc_shop","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"value":"True",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"npc_static","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"value":"True",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"anim_idle","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"value":"FinTheHuman",},
+  ],
   "parent": {
-    "name": "FintheHuman",
-    "path": "folders/Tury/Objetos/FintheHuman.yy",
+    "name": "Npcs",
+    "path": "folders/Objects/Npcs.yy",
   },
   "parentObjectId": {
     "name": "obj_npc_parent",

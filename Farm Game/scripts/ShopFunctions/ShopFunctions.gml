@@ -37,15 +37,20 @@ function shop_next_page(_direction)
 		{
 			if(page_idx==holders[i].page)
 			{
-				instance_activate_object(holders[i]);
+				holders[i].visible=true;
 				with(holders[i])
 				{
-					depth=-1;
+					depth=-1;	can_press=true;
+
 				}
 			}
 			else
 			{
-				instance_deactivate_object(holders[i]);
+				holders[i].visible=false;
+				with(holders[i])
+				{
+					can_press=false;
+				}
 			}
 		}
 	}

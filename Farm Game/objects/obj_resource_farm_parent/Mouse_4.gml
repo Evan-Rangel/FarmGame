@@ -9,6 +9,8 @@ if(point_distance(x,y, Kirby_Player.x,Kirby_Player.y)<30 && estado== PLANT_STATE
 	{
 		has_water=false;
 	}
-	estado=PLANT_STATE.IN_UI;
+	estado=PLANT_STATE.VENDER;
+	resource_sprite= replace_sprite;
+	resource_name=Rename;
 	add_to_inventory(self, 1);
 }

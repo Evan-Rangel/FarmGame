@@ -1272,7 +1272,7 @@
   },
   "sequenceId": null,
   "views": [
-    {"hborder":640,"hport":720,"hspeed":-1,"hview":700,"inherit":false,"objectId":null,"vborder":360,"visible":true,"vspeed":-1,"wport":1215,"wview":1215,"xport":0,"xview":1195,"yport":0,"yview":1185,},
+    {"hborder":340,"hport":720,"hspeed":-1,"hview":384,"inherit":false,"objectId":{"name":"Kirby_Player","path":"objects/Kirby_Player/Kirby_Player.yy",},"vborder":129,"visible":true,"vspeed":-1,"wport":1215,"wview":683,"xport":0,"xview":1195,"yport":0,"yview":1185,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":700,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1215,"xport":0,"xview":1195,"yport":0,"yview":640,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":700,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1215,"xport":0,"xview":0,"yport":0,"yview":640,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":700,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1215,"xport":0,"xview":1195,"yport":0,"yview":0,},

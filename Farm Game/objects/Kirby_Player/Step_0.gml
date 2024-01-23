@@ -76,7 +76,6 @@ else
 	}
 	
 }
-
 // Step (paso) evento del objeto del jugador
 
 // Verifica si la animación de ataque está activada

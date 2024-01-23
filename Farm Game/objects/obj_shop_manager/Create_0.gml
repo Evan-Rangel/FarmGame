@@ -22,3 +22,4 @@ for(i=0;i<2;i++)
 	buttons[i] = instance_find(obj_shop_arrow,i);
 }
 //alarm[0]=10;
+event_user(1);

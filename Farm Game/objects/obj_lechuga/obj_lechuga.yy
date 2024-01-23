@@ -15,6 +15,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_farm_parent","path":"objects/obj_resource_farm_parent/obj_resource_farm_parent.yy",},"propertyId":{"name":"Rename","path":"objects/obj_resource_farm_parent/obj_resource_farm_parent.yy",},"value":"Lechuga",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_farm_parent","path":"objects/obj_resource_farm_parent/obj_resource_farm_parent.yy",},"propertyId":{"name":"MinLevelWater","path":"objects/obj_resource_farm_parent/obj_resource_farm_parent.yy",},"value":"5",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_parent","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"propertyId":{"name":"count_store","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"value":"10",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_farm_parent","path":"objects/obj_resource_farm_parent/obj_resource_farm_parent.yy",},"propertyId":{"name":"replace_sprite","path":"objects/obj_resource_farm_parent/obj_resource_farm_parent.yy",},"value":"spr_lechuga3",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_farm_parent","path":"objects/obj_resource_farm_parent/obj_resource_farm_parent.yy",},"propertyId":{"name":"remuneracion","path":"objects/obj_resource_farm_parent/obj_resource_farm_parent.yy",},"value":"30",},
   ],
   "parent": {
     "name": "Cultivos",
