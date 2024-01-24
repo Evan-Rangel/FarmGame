@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_npc05",
+  "name": "obj_lucy",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [

@@ -41,7 +41,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_carrot_seed",
+    "path": "sprites/spr_carrot_seed/spr_carrot_seed.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
