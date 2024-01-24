@@ -5,8 +5,9 @@ function scr_game_text(_text_id) //Esta funcion tomara el nombre id del objeto p
 	switch(_text_id) //Este switch decidira cual texto mostrar dependiendo con que personaje se esta hablando.
 	{
 		case "Arturo":
-			scr_text("Bienvenido, Que vas a comprar?");
+			scr_text("Bienvenido, Que vas a comprar?","Arturo-Normal");
 			scr_text("Ya no barres?","ProneBodoque-Normal");
+			scr_text("Jodete", "Arturo-Incomodo");
 
 		break;
 		//---Evan---// //---id: 1---//

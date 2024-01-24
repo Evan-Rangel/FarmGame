@@ -167,19 +167,19 @@ function scr_text(_text) //Esta funcion facilita crear textos, acomoda los texto
 			case "Arturo-Normal":
 			speaker_sprite[page_number] = spr_arturo_normal_ads;
 			textbox_spr[page_number] = spr_textbox_blue;
-			speaker_side[page_number] = -1;
+			//speaker_side[page_number] = -1;
 			snd[page_number] = snd_boytyping;
 			break;
 			case "Arturo-Loco":
 			speaker_sprite[page_number] = spr_arturo_loco_ads;
 			textbox_spr[page_number] = spr_textbox_blue;
-			speaker_side[page_number] = -1;
+			//speaker_side[page_number] = -1;
 			snd[page_number] = snd_boytyping;
 			break;
 			case "Arturo-Incomodo":
 			speaker_sprite[page_number] = spr_arturo_incomodo_ads;
 			textbox_spr[page_number] = spr_textbox_blue;
-			speaker_side[page_number] = -1;
+			//speaker_side[page_number] = -1;
 			snd[page_number] = snd_boytyping;
 			break;
 			//-----------------------------//
