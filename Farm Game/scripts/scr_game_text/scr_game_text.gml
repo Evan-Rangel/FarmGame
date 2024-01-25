@@ -4,32 +4,45 @@ function scr_game_text(_text_id) //Esta funcion tomara el nombre id del objeto p
 	
 	switch(_text_id) //Este switch decidira cual texto mostrar dependiendo con que personaje se esta hablando.
 	{
+		case "Npc01":
+			scr_text("Sabias que puedes vender tus cultivos en el cesto a lado de tu casa?");
+		break;
+		case "Npc02":
+			scr_text("En la dungeon hay enemigos poderosos.");
+		break;
+		case "Npc03":
+			scr_text("Aunque que venza al Jefe de la mazmorra se la chupo.");
+		break;
+		case "Npc04":
+			scr_text("No se");
+		break;
 		case "Arturo":
 			scr_text("Bienvenido, Que vas a comprar?","Arturo-Normal");
 			scr_text("Ya no barres?","ProneBodoque-Normal");
 			scr_text("Jodete", "Arturo-Incomodo");
+			scr_text("Tu mama","ProneBodoque-Enojado");
+			scr_text("Tu mama","Arturo-Loco");
+
 
 		break;
 		//---Evan---// //---id: 1---//
 		case "Evan":
-			scr_text("Hola wee, soy Evan, solo queria recordarte que estas pendejo jijijijijij");
+			scr_text("Hola wee, soy Evan, solo queria recordarte que estas pendejo jijijijijij", "Evan-Normal");
 				scr_text_float(14, 17);
 				//scr_text_shake(14, 17);
 				scr_text_color(14, 17, c_red,  c_red,  c_red,  c_red); 
-			scr_text("sos la hostia.");
-			scr_text("tu codigo esta de la verga :v");		
-			scr_text("Quieres ayuda?");	
+			scr_text("sos la hostia.", "Evan-Normal");
+			scr_text("tu codigo esta de la verga :v", "Evan-Normal");		
+			scr_text("Quieres ayuda?", "Evan-Normal");	
 				scr_option("Si pofavoo", "Evan - si");
 				scr_option("No sho puedo boludo", "Evan - no");
 
 		break;
 			case "Evan - si":
-				scr_text("ven deja te explico joto");
-
+				scr_text("ven deja te explico joto", "Evan-Normal");
 			break;
 			case "Evan - no":
-				scr_text("va, pero arregla tu mamada");	
-
+				scr_text("va, pero arregla tu mamada", "Evan-Normal");	
 			break;
 		//----------//
 		
@@ -48,7 +61,7 @@ function scr_game_text(_text_id) //Esta funcion tomara el nombre id del objeto p
 		//----------//
 		
 		//---Campesina---// //---id: 3---//
-		case "Campesina":
+		case "Lucy":
 			scr_text("HOLAAAAA!!!, eres nuevo por aqui?", "Campesina-Normal", -1);
 			scr_text("Ayy no una morra bien ruidosa.", "ProneBodoque-Normal");
 			scr_text("No te entendi como te llamas?!!", "Campesina-Normal", -1);

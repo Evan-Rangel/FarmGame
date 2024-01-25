@@ -4,4 +4,4 @@ can_draw=false;
 resource_name="";
 resource_description="";
 
-depth=-2;
+depth=-10;

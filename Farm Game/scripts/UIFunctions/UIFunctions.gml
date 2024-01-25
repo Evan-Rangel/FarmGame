@@ -58,6 +58,7 @@ in_store=false;
 function obj_select_event()
 {
 	resource_obj.on_select=true;
+	
 }
 function obj_unselect_event()
 {
@@ -72,6 +73,7 @@ function obj_interact_resource_event()
 			with(resource_obj)
 			{
 				event_user(0);
+				
 			}
 		}
 	}
@@ -129,6 +131,12 @@ function delete_to_inventory_venta()
 		}
 	}
 }
+function show_resource_info(_res)
+{
+	resource_name= _res.resource_name;
+	resource_description=_res.resource_description;
+}
+
 //comentacion
 function resource_show_info()
 {
@@ -163,6 +171,8 @@ function resource_start_move_position(_resource, _count)
 	{
 	//resource_hide_info();
 	global.resource = _resource;
+	obj_cursor_inv.sprite_index=_resource.resource_sprite;
+
 	_resource.in_movement = true;
 	resource_count -= _count;
 	global.holder_t = self.id;
@@ -172,8 +182,11 @@ function resource_start_move_position(_resource, _count)
 }
 function resource_stop_move_position()
 {
+	
 	if(	global.resource_can_move)
 	{
+		obj_cursor_inv.sprite_index=noone;
+
 		var _h_temp=global.holder_t;
 		var _count=global.resource_count;
 		

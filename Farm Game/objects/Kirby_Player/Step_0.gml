@@ -129,8 +129,8 @@ if (attack_animation && image_index == image_number - 7) {
 }
 /*-------------------------------------------------------------------------------------------------*/
 
-if(mouse_check_button_pressed(1))
+if(mouse_check_button_pressed(1)&& !global.can_show_inventory)
 {
-obj_interact_resource_event();
+	obj_interact_resource_event();
 }
 

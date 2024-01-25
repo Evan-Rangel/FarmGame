@@ -162,7 +162,11 @@ if (accept_key) //Si se preciona espacio cambiara de pagina de texto, si el text
 					event_user(0);
 				}
 			}
-			npc.can_move=true;
+			with(npc)
+			{
+				can_move=true;
+				speed=char_speed;
+			}
 			Kirby_Player.can_walk=true;
 			instance_destroy();
 		}

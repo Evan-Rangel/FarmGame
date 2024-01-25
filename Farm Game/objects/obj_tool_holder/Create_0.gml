@@ -8,5 +8,5 @@ image_speed=0;
 image_index=0;
 depth=-1;
 
-is_mouse=false;
 
+in_mouse=false;

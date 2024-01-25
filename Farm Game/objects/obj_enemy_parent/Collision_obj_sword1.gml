@@ -3,12 +3,13 @@
 
 
 
-var _sword = instance_place(x,y, obj_sword1)
+//var _sword = instance_place(x,y, obj_sword1)
+
+
+	
+//current_health-=_sword.damage;
+if(current_health<=0)
 {
-	//current_health-=_sword.damage;
-	if(current_health<=0)
-	{
-		//Morir
-	}
+	//Morir
 }
 

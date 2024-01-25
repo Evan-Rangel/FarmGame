@@ -8,6 +8,6 @@ event_inherited();
 
 
 if (instance_exists(Kirby_Player)) {
-    // Activa la animación de ataque del jugador
+	instance_create_layer(x,y, "Instances",obj_action_effect );
     Kirby_Player.attack_animation = true;  
 }

@@ -1,6 +1,6 @@
 /// @description Jugador
 
-m_health=10;
+m_health=3;
 c_health=m_health;
 is_hit=false;
 walk_right = false;

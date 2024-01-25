@@ -1,9 +1,11 @@
 /// @description Alarma para mostrar la info
 // You can write your code in this editor
 
-if(is_mouse && resource_obj!=noone)
+var _res_obj=resource_obj;
+with(obj_info_inv)
 {
-	resource_show_info();
+	can_draw=true;
+	show_resource_info(_res_obj);
 }
 
 

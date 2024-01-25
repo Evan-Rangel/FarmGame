@@ -16,16 +16,18 @@ if(!is_hit)
 	current_health--;
 	alarm[0]=-1;
 	alarm[1]=-1;
+	image_alpha=0.3;
 	if(current_health<=0)
 	{
 		sprite_index=die_anim;
-		alarm[3]= image_speed*game_get_speed(gamespeed_fps);
-
+	}
+	else if(hit_anim==noone)
+	{
+		alarm[2]=game_get_speed(gamespeed_fps)*0.1;
 	}
 	else
 	{
-	
-		alarm[2]=game_get_speed(gamespeed_fps)*0.1;
+		sprite_index=hit_anim;
 	}
 }
 

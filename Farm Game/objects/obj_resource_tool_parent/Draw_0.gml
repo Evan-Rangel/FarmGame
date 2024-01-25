@@ -9,3 +9,8 @@
 
 // Inherit the parent event
 event_inherited();
+
+if(on_interact)
+{
+	draw_self();
+}

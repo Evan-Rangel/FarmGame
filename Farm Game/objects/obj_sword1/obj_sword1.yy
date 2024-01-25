@@ -11,8 +11,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_parent","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"propertyId":{"name":"resource_sprite","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"value":"spr_ui_sword_rust",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_parent","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"propertyId":{"name":"resource_name","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"value":"Sword",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_parent","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"propertyId":{"name":"resource_description","path":"objects/obj_resource_parent/obj_resource_parent.yy",},"value":"Mata enemigos",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_tool_parent","path":"objects/obj_resource_tool_parent/obj_resource_tool_parent.yy",},"propertyId":{"name":"left_spr","path":"objects/obj_resource_tool_parent/obj_resource_tool_parent.yy",},"value":"spr_sword1_left",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_tool_parent","path":"objects/obj_resource_tool_parent/obj_resource_tool_parent.yy",},"propertyId":{"name":"right_spr","path":"objects/obj_resource_tool_parent/obj_resource_tool_parent.yy",},"value":"spr_sword1_right",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_tool_parent","path":"objects/obj_resource_tool_parent/obj_resource_tool_parent.yy",},"propertyId":{"name":"left_spr","path":"objects/obj_resource_tool_parent/obj_resource_tool_parent.yy",},"value":"spr_ui_sword_rust",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_resource_tool_parent","path":"objects/obj_resource_tool_parent/obj_resource_tool_parent.yy",},"propertyId":{"name":"right_spr","path":"objects/obj_resource_tool_parent/obj_resource_tool_parent.yy",},"value":"spr_ui_sword_rust",},
   ],
   "parent": {
     "name": "Herramientas",
@@ -38,8 +38,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_sword1_right",
-    "path": "sprites/spr_sword1_right/spr_sword1_right.yy",
+    "name": "spr_ui_sword_rust",
+    "path": "sprites/spr_ui_sword_rust/spr_ui_sword_rust.yy",
   },
   "spriteMaskId": null,
   "visible": true,
