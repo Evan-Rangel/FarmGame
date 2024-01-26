@@ -2,9 +2,6 @@
 
 
 
-
-
-
 is_hit=false;
 can_move=true;
 x_dir=0;

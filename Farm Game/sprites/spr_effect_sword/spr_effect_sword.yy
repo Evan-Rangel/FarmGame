@@ -46,8 +46,8 @@
     "backdropYOffset": 0.0,
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[
         {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
-                "end_effect",
-              ],},},"Disabled":false,"id":"8453f10f-52b6-4976-b339-8a5e043bda56","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
+                "end_action_effect",
+              ],},},"Disabled":false,"id":"08b48acc-ece1-4185-b69a-ecf027e290d0","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
       ],},
     "eventStubScript": null,
     "eventToFunction": {},
@@ -55,7 +55,7 @@
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
-    "playbackSpeed": 8.0,
+    "playbackSpeed": 12.0,
     "playbackSpeedType": 0,
     "showBackdrop": true,
     "showBackdropImage": false,

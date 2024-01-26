@@ -43,7 +43,14 @@
     "backdropWidth": 1366,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
+    "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[
+        {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
+                "walk_sound",
+              ],},},"Disabled":false,"id":"2d290e96-4ae0-4a78-b12f-842bad6475e9","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+        {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
+                "walk_sound",
+              ],},},"Disabled":false,"id":"79cad6f2-c175-4faa-a3d8-7a6ce09487a3","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
+      ],},
     "eventStubScript": null,
     "eventToFunction": {},
     "length": 4.0,

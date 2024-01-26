@@ -2,12 +2,13 @@
 // You can write your code in this editor
 
 
-if(event_data[?"event_type"]=="sequence event")
+if(event_data[?"event_type"]=="sprite event")
 {
 	switch(event_data[?"message"])
 	{
 		case"death":
-			instance_destroy();
+		if(sprite_index==die_anim)
+			instance_destroy(self);
 		break;
 		case"Hit":
 			is_hit=false;
@@ -16,7 +17,10 @@ if(event_data[?"event_type"]=="sequence event")
 			x_dir=0;
 			y_dir=0;
 			alarm[1]=alarm_time*game_get_speed(gamespeed_fps);
-		break;	
+		break;
+		case"EndGame":
+		
+		break;
 	}
 }
 

@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.gold=1000;
+global.gold=10000;
 depth=0;
 global.store_obj = self;
 holders=[];

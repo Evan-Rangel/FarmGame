@@ -13,3 +13,5 @@ is_hit=false;
 speed_hit=0.1;
 alarm_time=1;
 can_move=false;
+//sprite_index=idle_anim;
+//event_user(0);

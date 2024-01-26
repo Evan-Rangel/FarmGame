@@ -58,5 +58,5 @@
     "path": "sprites/spr_enemy_coll_activate/spr_enemy_coll_activate.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

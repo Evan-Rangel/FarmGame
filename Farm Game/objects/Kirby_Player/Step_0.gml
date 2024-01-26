@@ -86,38 +86,38 @@ if (attack_animation) {
 	{
         sprite_index = spr_attack_clean_back;
 		// Crear hitbox
-        var inst_hitbox = instance_create_layer(x, y - 16, "Instances_jugador", obj_hitbox);
+        /*var inst_hitbox = instance_create_layer(x, y - 16, "Instances_jugador", obj_hitbox);
         inst_hitbox.direction = direction;
-		obj_hitbox.alarm[0] = 1;
+		obj_hitbox.alarm[0] = 1;*/
 		
     } 
 	else if (direction >= 135 && direction < 225) 
 	{
         sprite_index = spr_attack_clean_left;
 		// Crear hitbox
-        var inst_hitbox = instance_create_layer(x - 16, y, "Instances_jugador", obj_hitbox);
+       /* var inst_hitbox = instance_create_layer(x - 16, y, "Instances_jugador", obj_hitbox);
         inst_hitbox.direction = direction;
-		obj_hitbox.alarm[0] = 1;
+		obj_hitbox.alarm[0] = 1;*/
     } 
 	else if (direction >= 225 && direction < 315) 
 	{
         sprite_index = spr_attack_clean_front; 
 		// Crear hitbox
-        var inst_hitbox = instance_create_layer(x, y + 16, "Instances_jugador", obj_hitbox);
+      /*  var inst_hitbox = instance_create_layer(x, y + 16, "Instances_jugador", obj_hitbox);
         inst_hitbox.direction = direction;
-		obj_hitbox.alarm[0] = 1;
+		obj_hitbox.alarm[0] = 1;*/
     } 
 	else 
 	{
         sprite_index = spr_attack_clean_right; 
 		// Crear hitbox
-        var inst_hitbox = instance_create_layer(x + 16, y, "Instances_jugador", obj_hitbox);
+       /* var inst_hitbox = instance_create_layer(x + 16, y, "Instances_jugador", obj_hitbox);
         inst_hitbox.direction = direction;
-		obj_hitbox.alarm[0] = 1;
+		obj_hitbox.alarm[0] = 1;*/
     }
 	
 	// Establecer la variable de ataque en el hitbox
-    inst_hitbox.attack = true;
+   // inst_hitbox.attack = true;
 }
 
 

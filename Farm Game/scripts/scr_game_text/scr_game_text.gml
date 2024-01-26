@@ -8,13 +8,15 @@ function scr_game_text(_text_id) //Esta funcion tomara el nombre id del objeto p
 			scr_text("Sabias que puedes vender tus cultivos en el cesto a lado de tu casa?");
 		break;
 		case "Npc02":
-			scr_text("En la dungeon hay enemigos poderosos.");
+			scr_text("Puedes recargar la regadera en zonas donde haya agua.");
 		break;
 		case "Npc03":
-			scr_text("Aunque que venza al Jefe de la mazmorra se la chupo.");
+			scr_text("Dicen que en la mazmorra hay un jefe.");
+			scr_text("Que hay una gran recompensa");
+
 		break;
 		case "Npc04":
-			scr_text("No se");
+			scr_text("Compra semillas en la taqueria de Arturo");
 		break;
 		case "Arturo":
 			scr_text("Bienvenido, Que vas a comprar?","Arturo-Normal");
@@ -27,25 +29,26 @@ function scr_game_text(_text_id) //Esta funcion tomara el nombre id del objeto p
 		break;
 		//---Evan---// //---id: 1---//
 		case "Evan":
-			scr_text("Hola wee, soy Evan, solo queria recordarte que estas pendejo jijijijijij", "Evan-Normal");
+			scr_text("Hola wee, soy Evan, ya viste esta puerta?", "Evan-Normal");
 				scr_text_float(14, 17);
 				//scr_text_shake(14, 17);
 				scr_text_color(14, 17, c_red,  c_red,  c_red,  c_red); 
-			scr_text("sos la hostia.", "Evan-Normal");
-			scr_text("tu codigo esta de la verga :v", "Evan-Normal");		
-			scr_text("Quieres ayuda?", "Evan-Normal");	
-				scr_option("Si pofavoo", "Evan - si");
-				scr_option("No sho puedo boludo", "Evan - no");
+			scr_text("Es la mazmorra, pero se necesita una llave...", "Evan-Normal");
 
 		break;
-			case "Evan - si":
-				scr_text("ven deja te explico joto", "Evan-Normal");
-			break;
-			case "Evan - no":
-				scr_text("va, pero arregla tu mamada", "Evan-Normal");	
-			break;
-		//----------//
-		
+		case "Evan_Mazmorra":
+			scr_text("Soy yo otra vez", "Evan-Normal");
+				//scr_text_shake(14, 17);
+			scr_text("Ten cuidado, que hay trampas y enemigos.", "Evan-Normal");
+
+		break;
+		case "Ardilla":
+			scr_text("Una ardilla.", "ProneBodoque-Normal");
+		break;
+		//---	-------//
+		case "Bird":
+			scr_text("Un pajaro.", "ProneBodoque-Normal");
+		break;
 		//---Gefe---// //---id: 2---//
 		case "Gefeyafa":
 			scr_text("...", "Gefeyafa-Normal");
@@ -68,13 +71,16 @@ function scr_game_text(_text_id) //Esta funcion tomara el nombre id del objeto p
 			scr_text("...Bodoque...", "ProneBodoque-Normal");
 				scr_text_color(3, 10, c_red,  c_red,  c_red,  c_red); 
 			scr_text("Que..nombre tan raro pero esta bien. Mucho gusto me llam...", "Campesina-Normal", -1);
-			scr_text("Si si, oye campesina sabes donde esta la residencia Prones?", "ProneBodoque-Normal");
+			scr_text("Donde esta la mazmorra de la que todos hablan?", "ProneBodoque-Normal");
 			scr_text("Lucy...Me llamo Lucy.", "Campesina-Incomoda", -1);
 				scr_text_shake(0, 3);  scr_text_shake(16, 20);
 				scr_text_color(0, 3, c_olive,  c_olive,  c_olive,  c_olive);  scr_text_color(16, 19, c_olive,  c_olive,  c_olive,  c_olive); 
-			scr_text("Pero si, si se donde esta la residencia Prones, esta despues del lago, sigueme.", "Campesina-Normal", -1);
-			scr_text("Que hueva, caminar mas, pero va, te sigo.", "ProneBodoque-Normal");
-			scr_text("(Sigues a la morra castrosa)");
+			scr_text("Pero si, se donde esta la mazmorra, pero primero necesitas una llave.", "Campesina-Normal", -1);
+			scr_text("Que hueva, que tengo que hacer para conseguir la llave?", "ProneBodoque-Normal");
+			scr_text("Puedes intentar comprar semillas en la taqueria de arturo", "Campesina-Normal", -1);
+			scr_text("Nunca entendere por que le dicen taqueria.", "Campesina-Normal", -1);
+			scr_text("Pero bueno, despues de comprarlas, plantalas y vendelas.", "Campesina-Normal", -1);
+
 			//Kirby_Player.can_walk=true;
 		//----------//
 	}

@@ -8,7 +8,7 @@ if(event_data[?"event_type"]=="sprite event")
 {
 	switch(event_data[?"message"])
 	{
-		case"end_effect":
+		case"end_action_effect":
 			instance_destroy();
 		break;
 		

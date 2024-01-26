@@ -7,12 +7,12 @@
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"npc_name","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"value":"Gefeyafa",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"npc_shop","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"value":"0",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"anim_idle","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"value":"noone",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"anim_front_walk","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"value":"noone",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"anim_back_walk","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"value":"noone",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"anim_left_walk","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"value":"noone",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"anim_right_walk","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"value":"noone",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"npc_static","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"value":"0",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"anim_idle","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"value":"spr_gefeyafa",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"anim_front_walk","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"value":"spr_gefeyafa",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"anim_back_walk","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"value":"spr_gefeyafa",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"anim_left_walk","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"value":"spr_gefeyafa",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"anim_right_walk","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"value":"spr_gefeyafa",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"npc_static","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"value":"True",},
   ],
   "parent": {
     "name": "Npcs",
@@ -37,7 +37,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_gefeyafa",
+    "path": "sprites/spr_gefeyafa/spr_gefeyafa.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

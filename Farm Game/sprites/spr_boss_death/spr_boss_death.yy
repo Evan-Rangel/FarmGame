@@ -49,8 +49,11 @@
     "backdropYOffset": 0.0,
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[
         {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
+                "EndGame",
+              ],},},"Disabled":false,"id":"7e67c216-3b2b-4b89-875b-018d1cfd6f46","IsCreationKey":false,"Key":7.0,"Length":1.0,"Stretch":false,},
+        {"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MessageEventKeyframe","resourceVersion":"1.0","Events":[
                 "death",
-              ],},},"Disabled":false,"id":"e1b071fd-4cb8-4316-b0b2-4aff9289ae3c","IsCreationKey":false,"Key":8.0,"Length":1.0,"Stretch":false,},
+              ],},},"Disabled":false,"id":"12e70435-66c3-449e-9fb9-24351a5e6fa9","IsCreationKey":false,"Key":8.0,"Length":1.0,"Stretch":false,},
       ],},
     "eventStubScript": null,
     "eventToFunction": {},

@@ -1,7 +1,7 @@
 /// @description Reset Hearts
 
 
-c_health=m_health;
+c_health=global.m_health;
 
 
 

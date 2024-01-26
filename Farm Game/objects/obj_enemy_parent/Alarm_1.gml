@@ -1,8 +1,4 @@
 /// @description Descanso
-/*
-x_dir=0;
-y_dir=0;
-*/
 
 speed=0;
 image_index=idle_anim;
