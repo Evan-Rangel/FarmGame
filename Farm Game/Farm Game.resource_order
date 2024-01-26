@@ -64,6 +64,7 @@
     {"name":"Rooms","order":1,"path":"folders/Sequences/Rooms.yy",},
     {"name":"Shaders","order":5,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":2,"path":"folders/Sounds.yy",},
+    {"name":"player","order":1,"path":"folders/Sounds/player.yy",},
     {"name":"DungeonSprites","order":14,"path":"folders/Sprites/DungeonSprites.yy",},
     {"name":"Effects","order":19,"path":"folders/Sprites/Effects.yy",},
     {"name":"Enemy","order":16,"path":"folders/Sprites/Enemy.yy",},
@@ -130,7 +131,6 @@
     {"name":"WateringCan","order":1,"path":"folders/Tury/Sprites/Tools/WateringCan.yy",},
     {"name":"Wood","order":5,"path":"folders/Tury/Sprites/Wood.yy",},
     {"name":"tileset","order":2,"path":"folders/Tury/tileset.yy",},
-    {"name":"player","order":1,"path":"folders/Sounds/player.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_down_dart","order":4,"path":"objects/obj_down_dart/obj_down_dart.yy",},
